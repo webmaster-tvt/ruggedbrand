@@ -1,0 +1,3063 @@
+/*
+ Theme Name:     Molti - Ecommerce
+ Theme URI:      https://samarj.com/molti-ecommerce
+ Description:    A Modern Design Multipurpose Ecommerce Child Theme for Divi with amazing Design & Functionalities like never before.
+ Author:         SamarJ
+ Author URI:     https://samarj.com/
+ Template:       Divi
+ Version:        1.0.6
+*/
+/* 
+------------------------------------------------------- */
+
+
+/*No Horizontal Scroll bar*/
+#page-container { overflow:hidden; }
+/*Fixing the Button Position for Firefox for Newsletter*/
+@-moz-document url-prefix() {
+    .molti-newsletter.et_pb_newsletter .et_pb_button  {
+        margin-top: -69px !Important;
+    }
+	.molti-newsletter-single-post.et_pb_newsletter .et_pb_button  {
+        margin-top: -83px !Important;
+    }
+}
+
+
+.molti-header-5 .et_mobile_menu{
+	width: 280%!important;
+    margin-left: -195px;
+    margin-top: 45px;
+}
+
+/*Mobile Menu Customizations*/
+/*To add Box Shadow and Corner Radius to Mobile Menu*/
+.et_mobile_menu{
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 15px 30px;
+}
+/*This will add Padding and Margin (Spacing) around the Mobile Menu Items*/
+.et_mobile_menu li a{
+	padding: 13px 5%;
+    margin: 10px 0;
+}
+/*To hide the Sub Menu in mOBILE*/
+#page-container .mobile_nav li ul.hide {
+    display: none !important;
+}
+/**** This adjusts the positioning and the background transparency of the parent menu item on mobile ****/
+#page-container .mobile_nav .menu-item-has-children {
+    position: relative;
+}
+#page-container .mobile_nav .menu-item-has-children > a {
+    background: transparent;
+}
+/**** This styles the icon and moves it to the right ****/
+#page-container .mobile_nav .menu-item-has-children > a + span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 3;
+}
+.menu-closed{
+	border-left:1px solid #eee;
+}
+/**** Styling for the Sub Menu Toggle Icon in Mobile Menu ****/
+#page-container span.menu-closed:before {
+    content: "\22";
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-family: ETmodules;
+	transition:.3s ease;
+	background:rgba(255,128,87,0.39);
+	color:#ff8057;
+	text-align: center;
+    border-radius: 100px;
+	width:26px;
+}
+#page-container span.menu-closed.menu-open:before {
+    content: "\22";
+	transform:rotate(180deg);
+	background:#ff8057;
+	color:#fff;
+}
+
+
+/*Header Codes - All the Codes for Main Header here*/
+.molti-custom-dropdown-content{
+-webkit-animation: scale-in-tr 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: scale-in-tr 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes scale-in-tr {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-tr {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+    opacity: 1;
+  }
+}
+
+/*END*/
+
+/*For Link Animation - Add class to any module "link effect" to add this effect*/
+.link-effect a, .woocommerce-error a, .woocommerce-info a, .woocommerce-message a{
+  cursor: pointer;
+  padding-bottom:5px;
+  transition: all 0.2s linear;
+  background: linear-gradient(to bottom, #FF8057 0%, #FF8057 98%); /*Change color of the underline from here*/
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+}
+.link-effect a:hover, .woocommerce-error a:hover, .woocommerce-info a:hover, .woocommerce-message a:hover {
+  background-size: 100% 2px;
+}
+/*Link effect CSS ends*/
+
+/*Link effect - white underline add this class "link-effect-white"*/
+.link-effect-white a {
+  cursor: pointer;
+  padding-bottom:5px;
+  transition: all 0.2s linear;
+  background: linear-gradient(to bottom, #fff 0%, #fff 98%); /*Change color of the underline from here*/
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+}
+.link-effect-white a:hover {
+  background-size: 100% 2px;
+}
+/*END HERE*/
+
+
+/*Dropdown Menu Animation and styling for Main Header - Desktop*/
+.et-menu-nav .nav li li {
+    padding: 0 !Important;
+}
+/*Change the width of the Sub Menu*/
+.et-menu-nav .nav li ul{
+	width:250px !Important
+}
+/*Remove the default hover background for Dropdown Menu Link*/
+.et-menu-nav .nav ul li a:hover {
+    background-color: transparent;
+}
+/*To add more padding and Spacing around menu Item*/
+.et-menu-nav .et-menu li li a{
+	padding:10px 20px;
+	margin:3px 0;
+}
+/*This will add arrow Line to active Dropdown Menu link*/
+.et_pb_menu .nav li ul.sub-menu li.current-menu-item a:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    transition: all .2s ease-in-out;
+	background: #ff8057 !important;
+	width:4px;
+	border-radius: 0px 3px 3px 0px;
+}
+/*Line shows on Hover on Sub Menu Link Hover*/
+.et-menu-nav .et-menu li li a:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    transition: all .2s ease-in-out;
+	border-radius: 0px 3px 3px 0px;
+}
+.et-menu-nav .et-menu li li a:hover:before {
+    background: #ff8057;
+	width:4px;
+}
+/*To add Entrance and Exit Animation to Dropdown Menu*/
+
+/*Entrance Animation for Dropdown Menu*/
+.et-menu-nav .et-show-dropdown .sub-menu{
+-webkit-animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*To add Box Shadow Corner Radius and Exit Animation to Dropdwon Menu*/
+.et-menu-nav .sub-menu{
+	box-shadow: 0px 5px 40px #0000002b !IMPORTANT;
+	border-radius:8px;
+	-webkit-animation: fade-out-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: fade-out-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/*Will add Arrow indicator to Dropdown Menu*/
+.et-menu-nav .sub-menu:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 11%;
+    top: -22px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+    z-index: 1;
+}
+
+/*Keyframes for Dropdown menu Entrance Animation*/
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*Keyframes for Dropdown Menu Exit Animation*/
+@-webkit-keyframes fade-out-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 0;
+  }
+}
+@keyframes fade-out-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 0;
+  }
+}
+
+
+/*Stylings for the Homepage Starts here*/
+
+/*This will fix the issue with the Buttom Module Animation*/
+.et_pb_button_module_wrapper{
+	transition:all .3s ease !Important;
+}
+/*To make any column vertically centered - Enable Equal Column height in the Row Settings*/
+.et_pb_equal_columns>.et_pb_column{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+/*To make buttons inline anywhere, add the class "inline-buttons-row" to the Row*/
+.inline-buttons-row .et_pb_button_module_wrapper{
+display:inline-block;
+}
+/*This will add hover transition to Blurb Module's Image*/
+.et_pb_main_blurb_image{
+	transition:.3s ease;
+}
+/*To push the Image a bit small on the Homepage*/
+.service-card:hover .et_pb_main_blurb_image{
+	transform:scale(0.90) !Important
+}
+/*The Features Section on the Homepage - Adding some Hover effect to blurb Image*/
+.feature .et_pb_animation_off{
+    background: #ff8057;
+    padding: 10px;
+    border-radius: 10px;
+    transition:.3s ease;
+}
+.feature:hover .et_pb_animation_off{
+	 box-shadow: 35px -15px 0px #ff80571f, -25px 15px 0px #ff80571f;
+	 transform:scale(1.2)
+}
+
+
+/*Creating a Testimonial Carousel with Slider Module*/
+
+/*manually add the image url to the slide controller*/
+.molti-testimonial .et-pb-controllers a:nth-child(1) {
+  content: url('/wp-content/uploads/2020/05/Team-1.jpg');
+}
+.molti-testimonial .et-pb-controllers a:nth-child(2) {
+  content: url('/wp-content/uploads/2020/05/Team-7.jpg');
+}
+.molti-testimonial .et-pb-controllers a:nth-child(3) {
+  content: url('/wp-content/uploads/2020/05/Team-5.jpg');
+}
+.molti-testimonial .et-pb-controllers a:nth-child(4) {
+  content: url('/wp-content/uploads/2020/05/Team-3.jpg');
+}
+/*size and position of images*/
+.molti-testimonial .et-pb-controllers a {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin: 0 15px;
+  transition:.3s ease;
+}
+/*change opacity on hover*/
+.molti-testimonial .et-pb-controllers a:hover {
+ opacity: 1;
+ transform:scale(0.90)
+}
+/*make the active slide slightly bigger*/
+.molti-testimonial .et-pb-controllers .et-pb-active-control {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -5px;
+  box-shadow:0px 1px 20px #0000002b;
+}
+
+/*force off the text shadows*/
+.molti-testimonial .et_pb_slide_description {
+text-shadow: none!important;
+  margin-bottom: 20px!important;
+}
+/*change the slide description animation*/
+.molti-testimonial .et-pb-active-slide .et_pb_slide_description {
+ animation-name: fadeIn;
+}
+
+
+@media (max-width: 980px) {
+/*size and position of images - mobile*/
+.molti-testimonial .et-pb-controllers a {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+  /*make the active slide slightly bigger - mobile*/
+.molti-testimonial .et-pb-controllers .et-pb-active-control {
+  width: 60px;
+  height: 60px;
+  margin-bottom: -5px;
+  box-shadow:0px 1px 20px #0000002b;
+	}
+  /*adjust image position - mobile*/
+.molti-testimonial .et-pb-controllers {
+    bottom: 10%;
+}
+}
+
+/*position the images - mobile*/
+@media (max-width: 767px) {
+.molti-testimonial .et-pb-controllers {
+  bottom: 20%;
+}
+/*position the images - mobile*/
+.molti-testimonial .et_pb_slide_description {
+  margin-bottom: 50px!important;
+}
+}
+
+
+
+
+
+/*Styling for the ""Homepage"" END here.*/
+
+
+
+
+/*Stylings for the "Contact Page"" Starts here*/
+
+/*Contact Info after the Hero Section*/
+
+/*This is to add animation when hoverout of the card - exit*/
+.molti-view-button{
+	opacity:0;
+	-webkit-animation: fade-out-bottom 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: fade-out-bottom 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/*Animation when hover to card - entrance*/
+.molti-column:hover .molti-view-button{
+	opacity:1;
+	-webkit-animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+/*Keyframes for the Button to show with Animation - entrance*/
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/*Keyframe for the button to go away with animation - exit*/
+@-webkit-keyframes fade-out-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+}
+@keyframes fade-out-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+}
+
+
+/*The text before Contact Form*/
+mark-shy-text{
+	background: #ff80571a !Important;
+    color: #FF8057 !Important;
+    padding: 10px 25px;
+    border-radius: 100px;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+/*FAQ Toggle Module - Desiging the Toggle Module*/
+.molti-faq .et_pb_toggle_title:before {
+    content: "\4c" !IMPORTANT;
+    font-weight: 900;
+	transition:.3s ease;
+}
+/*Stylings for when the Toggle is open*/
+.molti-faq.et_pb_toggle_open .et_pb_toggle_title:before{
+	transform: rotate(180deg);
+	content: "\22" !IMPORTANT;
+	color: #FF8057 !Important
+}
+/*Stylings for the Contact Page ENDs here*/
+
+
+
+ 
+
+
+/*Stylings for the "About Us" Page Starts here*/
+
+/*Styling for the text "Our History" in the About page.*/
+mark-history{
+  background:rgba(255,128,87,0.23);
+  color:#FF8057;
+  padding:10px 20px;
+  border-radius:100px;
+}
+/*Will make buttons centered after the Testimonial section on About Page*/
+.row-after-testimonials{
+	text-align:center;
+}
+/*Hides the member bio by default*/
+.member-bio, .member-social-media-follow, .member-about-button{
+	opacity:0;
+}
+/*To show member bio info when hover to member card*/
+.member-card:hover .member-bio{
+	opacity:1;
+	-webkit-animation: fade-in-bottom 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*This will add entrance animation to Social Follow Module when hover to member card*/
+.member-card:hover .member-social-media-follow{
+	opacity:1;
+	-webkit-animation: fade-in-bottom 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*This is to add entrance animation to the button in the member card*/
+.member-card:hover .member-about-button{
+	opacity:1;
+	-webkit-animation: fade-in-bottom 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/*Keyframes for animation for all elements in member card*/
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*Styling for About Page Ends here*/
+
+
+/*Styling for the Services Page Starts here*/
+
+/*This will change the H4 color to white when hover over to service card*/
+.service-card-2:hover .et_pb_blurb h4{
+	color:#fff !important
+}
+/*This will change the the bold text to white on hover to service card*/
+.service-card-2:hover .et_pb_blurb strong{
+	color:#fff !important
+}
+/*This will change the blurb description color to white when hover over to service card*/
+.service-card-2:hover .et_pb_blurb_description{
+	color:#fff !important
+}
+/*This will add a white background to blurb image when hover to service card*/
+.service-card-2:hover .et_pb_main_blurb_image{
+	background:#fff;
+    width:50px;
+    padding:10px;
+    border-radius:5px;
+    box-shadow:0px 2px 10px rgba(0,0,0,0.36);
+}
+
+/*Molti Custom Testimonial Styling*/
+
+/*This will add an active state to active Testimonial image*/
+.active-img{
+	transform:scale(1.1);
+	transition: all .3s ease;
+}
+/*To add an overlay to active Image in testimonial*/
+.active-img:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0 0 0 / 35%);
+	z-index:10;
+	border-radius:10px;
+}
+/*This will add border inside the image to active testimonial image*/
+.active-img:after{
+	content: '';
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border: 1px solid #fff;
+    z-index: 10;
+    border-radius: 10px;
+    left: 10px;
+    top: 4.7%;
+	transition: all .3s ease;
+}
+/*Adjusting for Mobile*/
+@media only screen and ( max-width: 479px ) {
+.active-img:after{
+	display:none;
+}
+.active-img{
+	transform:scale(1.05);
+}
+}
+/*This will hide other testimonial content by default*/
+.not-active-text{
+	display:none !Important;
+}
+/*This will show the testimonoial content when switched to other testimonial item */
+.active-text{
+	display:block !Important;
+	-webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*Animation keyframes*/
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/*Styling for the Single Service Page Starts here*/
+
+/*Molti Custom Progess Tabs*/
+
+/*This will add an active state to the active Blurb Image */
+.active-tab .et_pb_main_blurb_image {
+    background: rgba(255,128,87,0.18);
+    border-radius: 10px;
+}
+/*This will change the H4 Color for the active tab item*/
+.active-tab.et_pb_blurb h4 {
+    color:#FF8057 !Important;
+}
+/*Ends here*/
+
+
+/*Styling for Single Job Page starts here*/
+.active-link-application:before{
+	content:"";
+	position:absolute;
+    top:60px;
+    left:-14px;
+	display:block;
+	width:135px;
+	border-radius:3px 3px 0px 0px;
+	background: #ff8057;
+    border:2px solid #ff8057;
+	transition:.3s ease;
+}
+.active-link:after{
+	content:"";
+	position:absolute;
+    top:60px;
+    left:-8px;
+	display:block;
+	width:135px;
+	border-radius:3px 3px 0px 0px;
+	background: #ff8057;
+    border:2px solid #ff8057; 
+	transition:.3s ease;
+}
+/*END HERE*/
+
+
+/*Styling for the Pricing Page Starts here*/
+.molti-active-switch-button.et_pb_button{
+	color: #ff8057 !Important;
+	background:#fff !Important;
+	box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.11);
+}
+/*Hehe, It ends here*/
+
+
+/*Styling for Blog - Advanced Page Starts here*/
+/*CSS for active switch*/
+.active-blog.et_pb_button{
+	color: #ff8057 !Important;
+	background:#fff !Important;
+	box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.11);
+}
+/*Blog Wrapped Styling*/
+/*move wrapped title, meta, and text up over the image*/
+.molti-blog-content{
+	position: absolute;
+	bottom: -10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	padding: 30px;
+	z-index: 1;
+}
+/*keep the moved items positioned with their parent items*/
+.molti-blog-latest .et_pb_blog_grid article {
+	position: relative;
+}
+/*remove spacing around entire blog post*/
+.molti-blog-latest .et_pb_blog_grid .et_pb_post {
+	padding: 0px;
+}
+/*remove negative margins on blog featured image*/
+.molti-blog-latest .et_pb_image_container {
+	margin: 0;
+}
+/*remove the margin below the featured image frame*/
+.molti-blog-latest .et_pb_post .entry-featured-image-url {
+	margin: 0;
+}
+/*Adds overlay to the Latest Post Featured Image*/
+.molti-blog-latest .entry-featured-image-url::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+@media only screen and ( max-width: 479px ) {
+	.molti-blog-content{
+		bottom:-45%;
+	}
+}
+/*Blog List layout Styling*/
+/*add media query so changes only affect tablet and desktop*/
+/*set the image width*/
+.molti-blog-list .entry-featured-image-url  {
+width: 25%;
+float: left;
+margin-bottom: 0!important;
+}
+/*set the details width*/
+.molti-blog-list .entry-title,
+.molti-blog-list .post-meta,
+.molti-blog-list .post-content {
+width: 75%;
+float: left;
+padding-left: 10px;
+margin-top:-5px;
+}
+/*To reduce bottom margin of the list blog*/
+.molti-blog-list .et_pb_post {
+margin-bottom: 27px;
+	-webkit-animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*Blog Grid layout Styling*/
+/*make the parts of the blog post flexible*/
+.molti-blog-grid .et_pb_post {
+	display: flex;
+	flex-direction: column;
+    position: relative;
+}
+/*featured image*/
+.molti-blog-grid .et_pb_image_container, .molti-blog-grid .entry-featured-image-url {
+	order: 2;
+}
+/* post title*/
+.molti-blog-grid .entry-title {
+	order: 3;
+}
+/* post meta*/
+.molti-blog-grid .post-meta {
+	order: 1;
+    z-index: 1;
+    margin: -10px 0px -13px -5px;
+}
+/*This will give Blog Post & Portfolio Meta Link button looks of Molti Theme */
+.molti-blog-grid .post-meta a, .et_pb_portfolio_item .post-meta a{
+	background-image: linear-gradient(151deg,#FF8057 38%,#ff5c26 100%);
+    padding: 6px 15px;
+    color: #fff !IMPORTANT;
+    border-radius: 5px;
+    margin-left: -10px;
+    margin-right: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+	transition:.2s ease;
+	text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+/*Some adjustments for Meta links*/
+.et_pb_portfolio_item .post-meta a{
+    position: relative;
+    left: 10px;
+    top: 10px;
+	margin-left: -6px !important;
+    margin-right: 7px !important;
+}
+/*To add hover effect to meta links*/
+.molti-blog-grid .post-meta a:hover, .et_pb_portfolio_item .post-meta a:hover{
+	box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+}
+/*To style the Post publish date for Blog Grid*/
+.molti-blog-grid .published{
+    background: #fff;
+    position: absolute;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px #0000001a;
+    top: 155px;
+    right: -18px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 1px;
+}
+/*Reordering the Blog Post Content*/
+/*excerpt and button*/
+.molti-blog-grid .post-content {
+	order: 4;
+}
+/*For sidebar module*/
+.molti-sidebar .widget_categories ul li a{
+	color:#000 !Important;
+}
+.molti-sidebar .widget_categories ul li:hover a{
+	color:#ff8057 !Important;
+}
+.molti-sidebar .widget_categories ul li {
+    margin-bottom: .5em;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    padding: 20px 20px;
+	transition: .2s;
+}
+.molti-sidebar .widget_categories ul li:hover {
+    padding: 20px 40px;
+}
+.molti-sidebar .widget_categories ul li a:before {
+	font-family: 'ETmodules';
+    content: "\24";
+    font-size: 18px;
+    position: absolute;
+    opacity: 0;
+    font-weight: 600;
+    left: 0;
+    transition: .1s;
+}
+.molti-sidebar .widget_categories ul li:hover a:before {
+    opacity: 1;
+    left: 15px;
+    transition: .3s;
+	color: #ff8057;
+}
+/*ENDS HERE*/
+
+/*Styling for Single Post page starts here*/
+
+/*To add button looks to the Cateofy and Tags*/
+.molti-category a, .molti-tags a{
+    background-image: linear-gradient(151deg,#FF8057 38%,#ff5c26 100%);
+	color:#fff;
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin-left: -10px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+	transition:.2s ease;
+}
+/*hover effect*/
+.molti-category a:hover, .molti-tags a:hover{
+	box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+}
+/*Adjusting the Tags positioning*/
+.molti-tags a{
+	margin:0 0 0 10px !Important
+}
+/*Post Navigation Module on single post page styling*/
+.nav-label{
+    position: relative;
+    top: 13px;
+    left: -2px;
+}
+@media only screen and ( max-width: 479px ) {
+.nav-label{
+    top: 0px;
+}
+/*Adjusting the the Comments section styling for single post page*/
+#respond .comment-form-comment {
+    width: 100% !Important;
+	margin-right:0px;
+}
+}
+
+/*End adjusting indicator*/
+/*To change the post of next label of post navigation module*/
+.nav-next .nav-label{
+	right:-16px !important;
+}
+/*Adjusting animation for tabs*/
+.molti-comments, .molti-article{
+	animation:.3s
+}
+/*Adding animation to the Comment form fields*/
+#commentform input[type=email], #commentform input[type=text], #commentform input[type=url], #commentform textarea{
+	transition:.3s ease !Important;
+}
+/*To make the Comment field half the width*/
+#respond .comment-form-comment {
+    width: 50%;
+    float: left;
+	margin-right:30px;
+}
+/*To make the Comment field fullwidth for logged in user*/
+.logged-in #respond .comment-form-comment {
+    width: 100% !Important;
+	margin-right:0;
+}
+/*To change the height of the textarea - comment feild*/
+#commentform textarea {
+    height: 195px!important;
+}
+/*To adjust the "save info" text position*/
+.comment-form-cookies-consent{
+margin-top:15px;	
+}
+/*This will add active indicator to the "Read Article".*/
+.active-link-read:after{
+	content:"";
+	position:absolute;
+    top:60px;
+    left:13px;
+	display:block;
+	width:135px;
+	border-radius:3px 3px 0px 0px;
+	background: #ff8057;
+    border:2px solid #ff8057; 
+	transition:.3s ease;
+}
+/*This will add active indicator to the "Discussion"*/
+.active-link-discussion:after{
+	content:"";
+	position:absolute;
+    top:60px;
+    right:-11px;
+	display:block;
+	width:135px;
+	border-radius:3px 3px 0px 0px;
+	background: #ff8057;
+    border:2px solid #ff8057; 
+	transition:.3s ease;
+}
+
+
+
+/*Styling for Single Project Page*/
+/*To style the scrollbar for Highlights section - You can add class "highlighs-section" to any section, row etc to style the Scrollbar*/
+.highlights-section ::-webkit-scrollbar {
+	width: 10px;
+    height: 10px;
+}
+.highlights-section ::-webkit-scrollbar-thumb {
+	background-color: #d8d3d3;
+	border-radius: 100px
+}
+/*End styling scrollbar*/
+/*Animation for the text shown on hover for image*/
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*END HERE*/
+
+
+/*Styling for Portfolio Page*/
+/*To style the Portfolio Gird for both Portfolio Modules*/
+.molti-portfolio .et_pb_portfolio_item, .molti-portfolio-2 .et_pb_grid_item{
+    margin-right: 30px !IMPORTANT;
+	border-radius:10px;
+	box-shadow:0px 5px 20px rgb(0 0 0 / 6%);
+	padding: 0 0 40px 0;
+	transition:.2s ease;
+	background: #fff;
+}
+/*Potfolio Modules 3 Column Width Settings*/
+@media only screen and ( min-width: 768px ) {
+.molti-portfolio .et_pb_grid_item, .molti-portfolio-2 .et_pb_grid_item {
+width: 30.333% !important;
+margin: 0 3.5% 3.5% 0 !important;
+}
+.molti-portfolio .et_pb_grid_item:nth-child(3n), .molti-portfolio-2 .et_pb_grid_item:nth-child(3n) {
+margin-right: 0 !important;
+}
+.molti-portfolio .et_pb_grid_item:nth-child(3n+1), .molti-portfolio-2 .et_pb_grid_item:nth-child(3n+1) {
+clear: left;
+}
+.molti-portfolio .et_pb_grid_item:nth-child(4n+1), .molti-portfolio-2 .et_pb_grid_item:nth-child(4n+1) {
+clear: unset !important;
+}
+}
+/*Adjusting the Portfolio for different screen sizes*/
+@media only screen and ( max-width: 479px ) {
+.molti-portfolio .et_pb_portfolio_item, .molti-portfolio-2 .et_pb_grid_item{
+	width: 91%!important;
+}
+}
+@media only screen and ( min-width: 480px ) and ( max-width: 555px ) {
+.molti-portfolio .et_pb_portfolio_item, .molti-portfolio-2 .et_pb_grid_item{
+	width: 43%!important;
+}
+}
+@media only screen and ( min-width: 556px ) and ( max-width: 666px ) {
+.molti-portfolio .et_pb_portfolio_item, .molti-portfolio-2 .et_pb_grid_item{
+	width: 44%!important;
+}
+}
+@media only screen and ( min-width: 667px ) and ( max-width: 767px ) {
+.molti-portfolio .et_pb_portfolio_item, .molti-portfolio-2 .et_pb_grid_item{
+	width: 45%!important;
+}
+}
+@media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
+.molti-portfolio .et_pb_portfolio_item, .molti-portfolio-2 .et_pb_grid_item{
+	width: 45%!important;
+}
+}
+/*To add hover effect to Portfolio Grid*/
+.molti-portfolio .et_pb_portfolio_item:hover, .molti-portfolio-2 .et_pb_grid_item:hover{
+	box-shadow:0px 10px 50px rgb(0 0 0 / 15%);
+	transform:translate(0%,-3%)
+}
+/*To add button on Hover for Portfolio Grid*/
+.molti-portfolio .et_portfolio_image:hover:before, .molti-portfolio-2 .et_portfolio_image:hover:before{
+	content: "View Details";
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    z-index: 2;
+    background: #fff;
+    border-radius: 100px;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0px 2px 25px #0000004a;
+	-webkit-animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*Animation keyframes for the button*/
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*END Animation keyframes*/
+
+/*Adjusting the Portfolio Filter buttons for Mobile*/
+@media only screen and  (max-width: 767px){
+.et_pb_filterable_portfolio .et_pb_portfolio_filters li {
+    width: auto !Important;
+}
+.et_pb_portfolio_filters li a {
+	padding: 7px 10px !important;
+    margin: 0 5px !IMPORTANT;
+    font-size: 10px !Important;
+}
+}
+/*Styling the Portfolio Filter buttons*/
+.et_pb_portfolio_filters li a {
+    color: #ff8057 !Important;
+    border: 2px solid #ff8057 !Important;
+    border-radius: 5px !important;
+    padding: 13px 25px !Important;
+	margin: 0 7px !Important;
+	transition:.3s ease;
+	margin-bottom:10px !Important;
+}
+/*Hover for portflio buttons*/
+.et_pb_portfolio_filters li a:hover {
+   background-color: #ff80571a !Important;
+}
+/*For active Portfolio Filter Button*/
+.et_pb_portfolio_filters li a.active {
+    background-image: linear-gradient(151deg,#FF8057 38%,#ff5c26 100%);
+    border-radius: 5px;
+    color: #fff !Important;
+    border: 2px solid #ff8057;
+    box-shadow: 0px 5px 13px rgb(0 0 0 / 20%);
+}
+/*Styling the Portfolio Pagination*/
+.et_pb_portofolio_pagination{
+	border:none !important;
+}
+.et_pb_portofolio_pagination a {
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000!important;
+    padding: 10px 15px;
+    border: 2px solid #ff8057;
+    border-radius: 5px;
+	transition:.3s ease;
+}
+.et_pb_portofolio_pagination ul li a.active{
+    background-image: linear-gradient(151deg,#FF8057 38%,#ff5c26 100%);
+    color: #fff !IMPORTANT;
+}
+/*END HERE*/
+
+
+/*CSS for Showcase Page*/
+/*To hide the "View Demo" text by default*/
+.demo-text{
+  opacity:0;
+}
+/*To show it on hover*/
+.image:hover .demo-text{
+  opacity:1;
+  transition: .2s ease;
+}
+mark-showcase{
+  background: rgba(255,128,87,0.2);
+  padding:9px 30px;
+  border-radius:100px;
+  color:#ff8057;
+}
+mark1-showcase{
+  background: #ff8057;
+  padding:9px 30px;
+  border-radius:100px;
+  color:#fff;
+}
+/*To add a close Icon when clicked on the Info Floating Icon on SHowcase Page*/
+.open:before{
+  content:"\4d";
+  position:absolute;
+  font-family:ETMOdules;
+  z-index:999;
+  background:#fff;
+  padding:5px;
+  font-size:30px;
+  right:8px;
+  color:#ff8057;
+  font-weight:bold;
+}
+/*To Style the Video Play Button*/
+.et_pb_video_play:before {
+  font-family: ETmodules;
+  content: "\45";
+  background: #fff;
+  color: #ff8057;
+  font-size:60px;
+  padding: 20px;
+  border-radius:100px;
+  box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.47), 0px 2px 20px rgba(0,0,0,0.28); 
+  transition:.3s ease;
+}
+/*Hover animation for the play button*/
+.et_pb_video_play:hover:before {
+  transform:scale(1.1) !Important;
+  box-shadow: 0px 0px 0px 20px rgba(255,255,255,0.47), 0px 2px 40px rgba(0,0,0,0.28);  
+}
+
+
+#page-container {
+    overflow-x: hidden;
+ }
+/*Styliing the Woo Notices all over the site*/
+.woocommerce-error, .woocommerce-info, .woocommerce-message, .som-password-sent-message {
+    background: #fff !important;
+    box-shadow: 1px 10px 40px -15px rgba(25, 25, 26, 0.17)!important;
+    color: #000 !IMPORTANT;
+    font-size: 15px !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: 2px solid #eee !important;
+    border-radius: 6px;
+}
+/*Forgot Password Page - Notice message*/
+.som-password-sent-message{
+    padding: 15px;
+    padding-bottom: 15px !IMPORTANT;
+}
+/*Changing the link color in the notice*/
+.woocommerce .woocommerce-error a, .woocommerce .woocommerce-info a, .woocommerce .woocommerce-message a{
+    color: #ff8057!important;
+}
+/*This will remove the Hover Icon from Shop Module Add to Cart buttons*/
+.woocommerce a.button.add_to_cart_button:after, a.button.product_type_simple:after, a.button.product_type_grouped:after, a.button.product_type_external:after{
+	display:none;
+}
+/*To Style the Add to Cart button in the Shop Module*/
+.et_pb_shop a.button.add_to_cart_button, .et_pb_shop a.button.product_type_simple, .et_pb_shop a.button.product_type_grouped, .et_pb_shop a.button.product_type_external{
+    background-image: linear-gradient(151deg,#FF8057 38%,#ff5c26 100%);
+    padding: 6px 15px;
+    color: #fff !IMPORTANT;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+	transition:.2s ease;
+	text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+/*Hover Styling for the Shop Module Add to Cart button*/
+.et_pb_shop a.button.add_to_cart_button:hover, .et_pb_shop a.button.product_type_simple:hover, .et_pb_shop a.button.product_type_grouped:hover, .et_pb_shop a.button.product_type_external:hover{
+	box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+	transform:translate(0%,-7%)
+}
+/*To hide the View Cart button in Shop Module when product is added to cart*/
+.woocommerce a.added_to_cart{
+	display:none;
+}
+/*To style the Star Rating on the Shop Module*/
+.et_pb_shop .star-rating{
+   background:#fff;
+   position:absolute;
+   top:10px;
+   right:10px;
+   border-radius:100px;
+   display:block;
+   width:90px !Important;
+   height:20px;
+   box-shadow: 0px 3px 10px #00000021;
+}
+/*Tweaks for Star Rating on Shop Module*/
+.et_pb_shop .star-rating:before{
+	margin-left: 12px !important;
+    margin-top: 3px !Important;
+}
+.et_pb_shop .star-rating>span:before{
+    margin-left: 12px !important;
+    margin-top: 3px !Important;
+}
+/*Adjusting the Quick View button on Shop Module*/
+.et_pb_shop li.product a.button.yith-wcqv-button{
+	font-family: ETModules !important;
+color: #fff;
+border-radius: 100px;
+font-size: 12px;
+padding: 5px 9px;
+top: 5px;
+left: 11px;
+transition: .2s ease;
+position: absolute;
+}
+/*Hover Styling for the Quick View button on Shop Module*/
+.et_pb_shop li.product a.button.yith-wcqv-button:hover{
+	padding: 5px 9px;
+	transform:scale(1.05) !important;
+	box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+	background:#ff8057 !Important;
+}
+/*This will add the "Quick View" text on hover on Icon on Shop Module*/
+.et_pb_shop li.product a.button.yith-wcqv-button:after{
+	content: 'Quick View';
+font-family: Montserrat !Important;
+display: block;
+position: absolute;
+left: -70%;
+top: -36px;
+z-index: 1;
+transition: none!Important;
+font-size: 9px !important;
+width: 75px;
+text-align: center;
+background: #ff8057;
+padding: 8px 7px;
+border-radius: 3px;
+font-weight: 500 !important;
+letter-spacing: 1px;
+box-shadow: 0px 3px 15px #00000036;
+}
+
+/*Adjustment to Wishlist Button in Shop Module*/
+ul.products li.product .tinvwl_add_to_wishlist_button {
+    margin-top: 1em;
+    position: absolute !important;
+    top: 3px !important;
+    left: 55px;
+}
+/*Styling the Wishlist Icon in the Shop Module*/
+.et_pb_shop li.product .tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart:before{
+	color: #fff;
+    background: #ff8057;
+    border-radius: 100px;
+    font-size: 18px;
+    padding: 6px 6px;
+    position: relative;
+    right: 6px;
+    transition: .2s ease;
+}
+/*Hover styling for the Wishlist Icon in Shop Module*/
+.et_pb_shop li.product .tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart:hover:before, .et_pb_shop li.product a.button.yith-wcqv-button:hover:after{
+	transform:scale(1.05) !important;
+	box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+	background:#ff8057 !Important;
+}
+/*Adjusting the Wishlist text that shows on hover*/
+.et_pb_shop li.product .tinvwl_add_to_wishlist-text, 
+.et_pb_shop li.product .tinvwl_already_on_wishlist-text{
+ font-family: Montserrat;
+position: absolute;
+left: -50px;
+top: -39px;
+z-index: 1;
+transition: none!Important;
+font-size: 10px;
+text-align: center;
+background: #ff8057;
+color: #fff;
+padding: 2px 7px;
+border-radius: 3px;
+font-weight: 600 !important;
+letter-spacing: 1px;
+box-shadow: 0px 3px 15px #00000036;
+width: 135px;
+}
+/*This will hide the wishlist text in normal state*/
+.et_pb_shop li.product .tinvwl_add_to_wishlist-text, .et_pb_shop li.product .tinvwl_already_on_wishlist-text{
+	visibility:hidden !Important;
+}
+/*This will show the Wishlist Text on Icon Hover*/
+.et_pb_shop li.product .tinvwl_add_to_wishlist_button.tinvwl-icon-heart:hover .tinvwl_add_to_wishlist-text, .et_pb_shop li.product .tinvwl_add_to_wishlist_button.tinvwl-icon-heart:hover .tinvwl_already_on_wishlist-text{
+	visibility:visible !important;
+}
+/*This will add hover effect to Shop Module Product Cart*/
+.et_pb_shop li.product:hover{
+	transform:scale(1.05);
+	box-shadow:0px 10px 40px #eee;
+}
+/*To add transition to the hover effect*/
+.et_pb_shop li.product{
+    transition:.2s ease;
+	padding:15px !important;
+	border-radius:7px;
+}
+/*This will hide the Wishlist Icon in Normal state*/
+.et_pb_shop .tinvwl-icon-heart, .et_pb_shop a.button.yith-wcqv-button{
+	opacity:0;
+}
+/*This will add an animation delay for heart icon*/
+.et_pb_shop li.product:hover .tinvwl-icon-heart{
+	animation-delay:100ms !important
+}
+/*Adjusting the Quick View Popup*/
+.yith-wcqv-main{
+	top: 100px;
+    box-shadow: none !important;
+    border-radius: 10px;
+    padding: 30px;
+}
+/*Styling the scrollbar in the Quick View*/
+.yith-wcqv-main::-webkit-scrollbar, .cpops-drawer-cart::-webkit-scrollbar, .select2-container--default .select2-results>.select2-results__options::-webkit-scrollbar {
+	width: .7em;
+}
+.yith-wcqv-main::-webkit-scrollbar-thumb, .cpops-drawer-cart::-webkit-scrollbar-thumb, .select2-container--default .select2-results>.select2-results__options::-webkit-scrollbar-thumb {
+	background-color: #d8d3d3;
+	border-radius: 100px
+}
+/*Styling the Close button in Quick View Popup*/
+#yith-quick-view-close {
+    border: none !important;
+    right: 8px;
+    top: 10px;
+    padding: 7px 8px 3px 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    font-family: karla;
+    font-weight: 900;
+    opacity: 1;
+    box-shadow: 0px 5px 20px #00000038;
+	transition:.2s ease;
+    color: transparent;
+}
+/*Adjusting the Quick View close icon*/
+#yith-quick-view-close:before{
+	content:"\4d";
+	font-family: ETModules;
+	color:#000
+}
+/*Hover styling for the Clost button in Quick View Popup*/
+#yith-quick-view-close:hover{
+	transform:scale(1.1);
+	color:transparent;
+}
+/*Styling the Price Text in Quick View Popup*/
+.yith-wcqv-main .price{
+	margin-bottom: 10px;
+    color: #000 !important;
+    font-weight: bold;
+}
+/*Link color of Category and tags in Quick View Popup*/
+.yith-wcqv-main .posted_in a, .yith-wcqv-main .tagged_as a {
+    font-weight: 700;
+    color: #ff8057;
+}
+/*The Fade in Bottom Animation for "Quick View" and "Wishlist" Icon*/
+.et_pb_shop li.product:hover .tinvwl-icon-heart, .et_pb_shop li.product:hover a.button.yith-wcqv-button, .molti-dropdown-2-content, .molti-faq-1-content, .molti-faq-2-content, .molti-faq-3-content, .molti-faq-4-content, .all-pages-content, .the-new-pages-content{
+	opacity:1;
+	-webkit-animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*Keyframes for the Fade In Bottom Animation*/
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*Styling for the Cart Popup Drawer*/
+
+/*Styling checkout button on Cart Popup drawer*/
+.cpops-cart-total a.checkout-button{
+    background-image: linear-gradient(151deg,#FF8057 38%,#ff5c26 100%) !important;
+	color:#fff;
+    padding: 10px 15px !important;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+	transition:.2s ease;
+}
+/*Hover styling for the Checkout button in Cart Popup Drwaer*/
+.cpops-cart-total a.checkout-button:hover{
+	transform:translate(0%,-5%);
+    padding: 10px 15px !Important;;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+}
+.cpops-modal {
+	z-index: 1000000000;
+}
+.pops-default-drawer{
+	box-shadow: -15px 5px 30px #00000036
+}
+.dgwt-wcas-suggestions-wrapp, .dgwt-wcas-details-wrapp {
+	z-index:99 !important;
+}
+
+/*Changes the color of the item counter in header*/
+.cartpops-cart--items-indicator-bubble .cartpops-cart__toggle .cartpops-cart__container-counter{
+	background: #ff8057 !important;
+}
+/*Changes background color of the Floating Icon*/
+#cpops-floating-cart button, #cpops-floating-cart button:hover {
+    background-color: #ff8057 !important;
+}
+/*Changes the color of item counter in Floating Cart Icon*/
+#cpops-floating-cart .cpops-floating-cart__count{
+	color: #ff8057 !IMPORTANT;
+}
+/*Pagination dots of Recommended Product carousel*/
+.cpops-slider__pagination__page{
+    background-color: #ff8057 !important;
+}
+.cpops-slider__pagination__page.is-active {
+    background-color: #ff8057 !important;
+}
+
+
+/*Styling for the Homepage*/
+
+/*This will hide the content in normal state for Essential Collection content*/
+.molti-collection-card-content{
+	opacity:0;
+}
+/*This will show the content on hover for essential collection cards*/
+.molti-collection-card:hover .molti-collection-card-content{
+	opacity:1;
+	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*Adjusting the padding on Carousel on homepage category slider*/
+.slick-track{
+	padding: 50px ;
+}
+/*Mobile Adjustment for Carousel on category slider*/
+@media only screen and ( max-width: 479px ) {
+.slick-track{
+	padding: 10px 0px !Important;
+}
+}
+/*Icon for the Next Arrow on the Carousel*/
+.slick-next::before {
+    content: '\24' !important;
+}
+/*Icon for the Prev Arrow on the Carousel*/
+.slick-prev::before {
+    content: '\23' !important;
+}
+/*Adjusting the Arrow Icon*/
+.slick-next::before, .slick-prev::before  {
+    font-family: ETModules !important;
+	opacity:1 !important;
+	font-weight: 900 !important;
+}
+/*Styling the Arrow Icons for Carousel*/
+.slick-prev, .slick-next{
+	background: #ff8057 !Important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 100px !important;
+	box-shadow: 0px 5px 10px #0000002e !important;
+	transition:.2s ease !important;
+}
+/*Hover Styling the Arrow Icons for Carousel*/
+.slick-prev:hover, .slick-next:hover{
+	background: #ff8057 !Important;
+	box-shadow: 0px 5px 30px #00000054 !important;
+	transform:scale(1.1) translate(0, -50%) !important;
+}
+/*Adjusting the Next Arrow Position on Category Slider*/
+.molti-category-section .slick-next{
+	right:-40px !Important;
+}
+/*Adjusting the Prev Arrow Position on Category Slider*/
+.molti-category-section .slick-prev{
+    left:-40px !Important;
+}
+/*Mobile Position adjustment for the arrows*/
+@media only screen and ( max-width: 479px ) {
+.molti-category-section .slick-next{
+	right:-15px !Important;
+}
+.molti-category-section .slick-prev{
+    left:-15px !Important;
+}
+}
+/*Styling for the Active Testimonial Tab on Homepage*/
+.active-testimonial-tab {
+    box-shadow: 0px 10px 50px #0000001c;
+    background: #fff;
+    transition: .2s ease;
+}
+/*Content Animation for the Tabbed Testimonial on Homepage*/
+.molti-tab-testimonials-content-1, .molti-tab-testimonials-content-2, .molti-tab-testimonials-content-3{
+	-webkit-animation: fade-in-bottom 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/*Styling for Shop Page*/
+/*Adjusting the Checkbox in the Filter Category checkbox*/
+.wpf_item input[type="checkbox"] {
+    border: 2px solid #555555 !important;
+	border-radius: 100px !important;
+}
+/*Styling the Icon on the Checked checkboxin Filter*/
+.wpf_item input[type="checkbox"]:checked:before{
+    content: "\4e" !IMPORTANT;
+    font-family: 'ETmodules' !Important;
+    font-size: 12px;
+    position: relative;
+    top: .2px;
+    left: -.5px;
+    font-weight: 900;
+}
+/*This will change the price range color*/ 
+.wpf_slider.ui-slider .ui-widget-header {
+    background: #ff8057 !important;
+}
+/*This wil adjust the Color filter*/
+.wpf_color_icons li label{
+	color: transparent !important;
+    width: 30px !IMPORTANT;
+    height: 30px !important;
+    display: block;
+    border-radius: 100px !important;
+}
+/*Stuling the Item count in the Filter*/
+.wpf_item_count {
+    background: #ff8057 !Important;
+    color: #fff !important;
+    top: -47px;
+    right: -26px;
+    border-radius: 100%;
+    box-shadow: 0px 5px 20px #00000029;
+    font-weight: 800;
+    font-size: 9px;
+}
+/*Styling the Reset button in the Filter*/
+.wpf_reset_btn {
+    background-image: linear-gradient(151deg,#FF8057 38%,#ff5c26 100%) !important;
+    color: #fff !important;
+    padding: 3px 15px 3px 20px !important;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 20%);
+    transition: .2s ease;
+	cursor:pointer !Important;
+}
+/*Hover Styling the Reset button in the Filter*/
+.wpf_reset_btn:hover {
+	transform:translate(0%,-5%);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+}
+/*Adjusting the Reset button in the Filter*/
+.wpf_reset_btn:before, .wpf_reset_btn:after{
+	left: 8px !important;
+    font-size: 10px;
+}
+/*Styling the Woo Pagination*/
+
+/*This will remove the border from the pagination*/
+.woocommerce nav.woocommerce-pagination ul{
+	border:none !important
+}
+/*Adjusting the page numbers in the pagination*/
+.page-numbers{
+	padding: 10px 14px !important;
+	font-weight: 700 !Important;
+}
+/*Styling the page numbers in the pagination*/
+nav.woocommerce-pagination ul li{
+	border:none !important;
+	background: #ff80571f;
+    color: #ff8057;
+    margin: 0 5px !Important;
+    border-radius: 100px;
+    font-family: 'Montserrat';
+	transition:.2s ease;
+}
+/*Hover Styling the page numbers in the pagination*/
+nav.woocommerce-pagination ul li:hover{
+	transform:scale(1.05) !important
+}
+/*Hover Styling the page numbers Link in the pagination*/
+nav.woocommerce-pagination ul li a:hover{
+	background: #ff80571f !important;
+    color: #ff8057 !important;
+}
+/*Styling the Current page number in the pagination*/
+nav.woocommerce-pagination ul li span.current{
+	background: #ff8057 !Important;
+    color: #fff !important;
+}
+/*/*Adjusting the Prev and Next Arrow in the pagination*/
+.page-numbers .next, .page-numbers .prev {
+    padding: 10px 10px !important;
+}
+
+/*Styling for Buttons All over the site*/
+.woocommerce .cart .button, .woocommerce .cart input.button, a.button.checkout-button, .woocommerce-page #payment #place_order, .woocommerce-form-login .woocommerce-form-login__submit, .checkout_coupon button, .woocommerce-form-register__submit, a.button.view, a.woocommerce-MyAccount-downloads-file.button, a.wshkcomment, #reset-pass-submit, .molti-wishlist .button, .molti-account-area .button, .tinvwl_added_to_wishlist.tinv-modal button.button, .woocommerce #review_form #respond .form-submit input, .dgwt-wcas-pd-addtc-form .button{
+	background-image: linear-gradient(151deg,#FF8057 38%,#ff5c26 100%)!important;
+    color: #fff !important;
+    padding: 8px 20px !important;
+    border-radius: 5px!important;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 20%) !important;
+    transition: .2s ease !important;
+    font-size: 13px!important;
+    text-transform: uppercase;
+    font-weight: 700!important;
+}
+/*Hover styling for all the Buttons*/
+.woocommerce .cart .button:hover, .woocommerce .cart input.button:hover, a.button.checkout-button:hover, .woocommerce-page #payment #place_order:hover,  .woocommerce-form-login .woocommerce-form-login__submit:hover, .checkout_coupon button:hover, .woocommerce-form-register__submit:hover, a.button.view:hover, a.woocommerce-MyAccount-downloads-file.button:hover, a.wshkcomment:hover, #reset-pass-submit:hover, .molti-wishlist .button:hover, .molti-account-area .button:hover, .tinvwl_added_to_wishlist.tinv-modal button.button:hover, .woocommerce #review_form #respond .form-submit input:hover, .dgwt-wcas-pd-addtc-form .button:hover{
+	background-image: linear-gradient(151deg,#FF8057 0%,#ff5c26 100%);
+    padding: 8px 20px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+	transform:translate(0%,-5%)
+}
+/*To remove the hover icon on all buttons*/
+.woocommerce .cart .button:after, .woocommerce .cart input.button:after, a.button.checkout-button:after, .woocommerce-page #payment #place_order:after, .woocommerce-form-login .woocommerce-form-login__submit:after, .checkout_coupon button:after, a.button.view:after, a.woocommerce-MyAccount-downloads-file.button:after, a.wshkcomment:after, .molti-wishlist .button:after, .molti-account-area .button:after, .woocommerce-form-register__submit:after, .tinvwl_added_to_wishlist.tinv-modal button.button:after, .dgwt-wcas-pd-addtc-form .button:after{
+    display:none !important;
+}
+
+/*Styling the Quantity Form*/
+.woocommerce .quantity input.qty{
+	background: transparent !important;
+    color: #000 !important;
+    border: 1px solid #00000014 !important;
+    border-radius: 5px !important;
+    font-size: 15px !important;
+    padding-right: 7px;
+    padding-left: 10px;
+}
+/*Styling the remove icon in the Cart Product list*/
+.woocommerce a.remove{
+	color: #000 !important;
+	font-weight:500 !Important;
+	transition:.2s ease !important;
+	position:relative
+}
+/*Adjustment to the Remove text shows on hover*/
+.woocommerce a.remove:hover{
+    background: #ff8057;
+}
+/*Arrow symbol for remove text shows on hover*/
+.woocommerce a.remove:hover:before{
+	content: '';
+    display: block;
+    position: absolute;
+    left: -12px;
+    top: 6px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #ff8057;
+    z-index: 1;
+}
+/*Adjustment to the remove text shows on hover*/
+.woocommerce a.remove:after{
+	color:#fff !important
+}
+/*This will add "Remove" text on hover on close icon*/
+.woocommerce a.remove:hover:after{
+    content: "Remove";
+    position: absolute;
+    font-size: 10px;
+    background: #ff8057;
+    padding: 5px 5px;
+    border-radius: 3px;
+    left: -63px;
+    font-weight: 600;
+}
+/*Adjusting the Width of product table*/
+th.product-remove{
+	width: 35px;
+}
+th.product-name{
+	width: 230px;
+}
+
+/*Styling for Checkout Page*/
+/*Adjustments to the Checkout Content*/
+
+/*This will add arrow icon before the Product Name on Checkout page*/
+.molti-checkout td.product-name:before{
+	content:"\24" !important;
+	font-family:ETModules;
+    color: #ff8057;
+    position: relative;
+    top: 2px;
+    left: -10px;
+}
+.select2-dropdown {
+	border: 2px solid #eee;
+}
+.select2-results__option[aria-selected], .select2-results__option[data-selected] {
+    margin: 0 10px;
+    padding: 10px;
+	border-radius: 5px;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option--highlighted[data-selected] {
+    background-color: #ff8057;
+}
+/*Styling Woo Input Feilds*/
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea, input.text, input.title, input[type=email], input[type=password], input[type=tel], input[type=text], select, textarea {
+    border-radius: 5px;
+    border: 2px solid #eee;
+	transition:.2s ease;
+	background:transparent;
+}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea, input.text, input.title, input[type=email], input[type=password], input[type=tel], input[type=text], select, textarea {
+    padding: 15px;
+    width: 100%;
+}
+/*Hover styling for the Inpurt Feilds*/
+.woocommerce form .form-row input.input-text:hover, .woocommerce form .form-row textarea:hover, input.text:hover, input[type=email]:hover, input[type=password]:hover, input[type=tel]:hover, input[type=text]:hover, select:hover, textarea:hover{
+    border: 2px solid #2558ab;
+}
+/*Styling for Labels on Input Fields*/
+.woocommerce form .form-row label, label{
+    color: #00000063!important;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+	font-weight: 700;
+}
+/*Styling the Woo Checkbox*/
+.woocommerce form .form-row label.checkbox input, .woocommerce-checkout #payment ul.payment_methods li input, .woocommerce-form-login input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none!important;
+    display: inline-block!important;
+    position: relative;
+    background-color: #E8EBEB;
+    color: #19191a;
+    top: 0;
+    vertical-align: middle;
+    height: 22px;
+    width: 22px;
+    box-shadow: 0 0 1px #19191a;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0px 7px 0 0;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+/*Hover effect for the Woo Checkbox*/
+.woocommerce form .form-row label.checkbox input:hover, .woocommerce-checkout #payment ul.payment_methods li input:hover, .woocommerce-form-login input[type=checkbox]:hover {
+    transform:scale(1.15) !important
+}
+/*Adding tick Icon when checkbox is checked*/
+.woocommerce form .form-row label.checkbox input:checked::before, .woocommerce-checkout #payment ul.payment_methods li input:checked:before, .woocommerce-form-login input[type=checkbox]:checked:before {
+	content: '\4e'!IMPORTANT;
+    position: absolute;
+    font-size: 14px!important;
+    font-family: 'ETmodules';
+    font-weight: 700;
+    left: 3.5px;
+    top: 5px;
+	animation:.2s;
+}
+/*Styling "Invalid" the Woo Checkbox*/
+.woocommerce-checkout #payment .validate-required{
+    border-top: 1px solid #eee;
+    padding-top: 15px !important;
+    margin-top: 15px !important;
+}
+
+/*Adjusting the Thanks you Message on Order Complete*/
+.woocommerce-thankyou-order-received{
+	background: #fff;
+    margin-top: -75px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: 700;
+    color: #000;
+}
+/*Styling the Address section on Order Complete*/
+.woocommerce .woocommerce-customer-details address{
+	border:none !important;
+	border-bottom-width: 0px;
+    border-right-width: 0px;
+}
+
+
+/*Adjusting the 2nd address field */
+#billing_address_2_field {
+    margin-top: 21px !important;
+}
+.molti-checkout .col-2{
+display:block !important
+}
+#shipping_address_2{
+	margin-top:-5px !important;
+}
+.molti-checkout th.product-name{
+	width: 75%;
+}
+.woocommerce table.shop_table th {
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    color: #9C9C9C !important;
+}
+
+/*Styling for the Login Page*/
+/*Adjusting the Submit Button on Login/Register Form*/
+.woocommerce-form-login .woocommerce-form-login__submit, .woocommerce-form-register__submit{
+	border: none;
+    width: 100%;
+    padding: 18px !IMPORTANT;
+    margin-top: 15px !important;
+	cursor:pointer;
+}
+/*Hides the Default "Lost Password" link on login Form*/
+.woocommerce-form-login .lost_password{
+	display:none;
+}
+/*Adding animation to the Forms on Toggle*/
+.molti-login-area .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2, .molti-login-area .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1{
+	-webkit-animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	width:100% !important;
+}
+/*Hides the Heading on login/register Forms*/
+.molti-login-area .woocommerce .col2-set .col-2 h2, .molti-login-area .col2-set .col-2 h2, .molti-login-area .woocommerce .col2-set .col-1 h2, .molti-login-area .col2-set .col-1 h2{
+	display:none;
+}
+/*Some adjustment*/
+.molti-login-area .woocommerce form.login, .molti-login-area .woocommerce form.register{
+	border:none;
+	padding:0 !important;
+}
+
+/*Stylings for Account Page*/
+/*Adding animation to the Content on toggle*/
+.mdac, .moc, .mdc, .mmsc, .mrc, .mtc, .mlcc, .mea, .meb, .mpm, .maa-dropdown{
+	-webkit-animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*Adds transition to the Profile Card on Account Page.*/
+.molti-user-card:after{
+	transition:.2s ease;
+}
+/*Rotates the Icon on Profile Click */
+.maa-dropdown-click:after{
+	transform:rotate(180deg) !important
+}
+/*Adds active indication to the Account Tabs Items on Left*/
+.active-aa{
+	background: #ffffff40 !important;
+    border-left: 4px solid #fff;
+	transition:all .2s ease !important;
+}
+/*Some adjustment*/
+.molti-account-area tr td, .molti-wishlist tr td{
+	padding: 25px 24px !important;
+	border-top:1px solid #eeeeee7a !important;
+}
+/*Styling the Orders under the Orders tab*/
+.molti-account-area .order{
+    border-radius:7px;
+	transition:.2s ease;
+}
+/*Hover Styling the Orders under the Orders tab*/
+.molti-account-area .order:hover{
+    box-shadow: 0px 5px 50px #0000001f;
+    transform: scale(1.01);
+}
+/*Styling Order Number on Orders Tab*/
+.molti-account-area .order-number{
+	font-size: 14px;
+    font-weight: 600;
+}
+/*Some adjustment*/
+.entry-content thead th{
+	color: #00000063 !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+}
+/*Adjusting the Downloads under the Downlods tab*/
+.woocommerce-order-downloads tbody{
+	border-radius:7px;
+	transition:.2s ease;
+}
+/*Adjusting the Reviews under the "Your Reviews" Tab*/
+ul.userreviewswshk {
+    width: 100%;
+    display: flex;
+}
+/*Adjusting the Avatar Image on "Your Reviews" tab*/
+.mcon-image-container img.avatar{
+	top: 0;
+    left: 0;
+    border-radius: 100px;
+	width:50px !important;
+}
+/*Some adjustment to the Avatar Image*/
+.mcon-image-container{
+    margin-right: -130px;
+	position: relative;
+    top: -95px;
+    left: 80px;
+    margin-bottom: -45px;
+}
+/*Some adjustment*/
+.wshktableth{
+    position: relative;
+    top: 35px;
+    right: 85px;
+}
+.entry-content table:not(.variations), body.et-pb-preview #main-content .container table {
+    margin-right: -400px !important;
+}
+/*Adjusting the Star Rating, However It's hidden but It's linked to the other Items on the Review Card*/
+.wshk.star-rating {
+    float: none !important;
+    width: 13.4em !important;
+    top: 100px !important;
+    margin-top: -20px !important;
+	opacity:0;
+}
+/*Styling the Review box*/
+.wshkreviewcontainer{
+	box-shadow: 0px 5px 50px #0000001c;
+    border-radius: 10px;
+    padding: 35px 0 20px 0;
+	transition:.2s ease;
+}
+/*Hover Styling the Review box*/
+.wshkreviewcontainer:hover{
+	transform:scale(1.03)
+}
+/*Adjusting the Review box*/
+.wshkreviewbox {
+    width: 74%;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 45px;
+    line-height: 1.7em;
+    margin-left: 110px;
+}
+/*Adds the "Review Content" before the Review description*/
+.wshkreviewbox:before{
+	content: "Review Content:";
+    position: absolute;
+    color: #ada8a8;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-top: -25px;
+}
+/*Adjusting the "View Review" button position*/
+.wshkproductbuttonlink{
+    width: 190px;
+    position: relative;
+    top: -20px;
+    right: 1px;
+}
+/*Some adjustment*/
+.wshkcomment{
+	position: absolute;
+    width: 159px;
+    margin-left: -37px;
+    margin-top: -6px;
+}
+/*Adjusting the Heading text in Edit Account*/
+.edit-acc-fieldset legend{
+	font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    padding: 30px 0;
+}
+/*Some adjustment*/
+.editarcuenta, .wshkaddressesbtn{
+	margin-top:15px;
+	cursor:pointer;
+}
+/*Styling the Mark properties in Woo Order Detilas*/
+mark{
+    background:	#ff8057;
+    padding: 3px 5px;
+    border-radius:3px;
+	color:#fff;
+}
+/*Some Adjustments to the Orders Details*/
+.wshk_view_order_status_msg{
+	margin-bottom:20px;
+}
+.woocommerce-order-downloads, .woocommerce-order-details{
+	box-shadow: 0px 5px 30px #0000001c;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.mdc .woocommerce-order-downloads{
+	box-shadow:none;
+	padding:0;
+}
+.mdc .woocommerce-order-downloads tbody:hover {
+    box-shadow:none;
+    transform: none;;
+}
+.woocommerce-order-details th{
+	border-top:1px solid #eeeeee5e;
+}
+.woocommerce-customer-details{
+	margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+}
+.wshk_view_order_box tbody:hover {
+    box-shadow: none !important;
+    transform: none;
+}
+/*Styling the Billing Details tab*/
+.molti-account-area .col2-set .col-1, .molti-account-area .woocommerce-page .col2-set .col-1, .molti-account-area .col2-set .col-2, .molti-account-area .woocommerce-page .col2-set .col-2{
+    float: left;
+    width: 45% !important;
+    margin-left: 20px;
+    box-shadow: 0px 5px 30px #00000014;
+    padding: 20px;
+    border-radius: 10px;
+}
+/*Some adjustments for Mobile*/
+@media only screen and ( max-width: 479px ) {
+.wshkreviewbox {
+    width: 150%;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 45px;
+    line-height: 1.7em;
+    margin-left: 100px;
+    margin-right: -106px;
+}
+th.wshktableth {
+    opacity: 0;
+}
+}
+/*Styling for Reset Password Page*/
+/*Styling the Heading Text*/
+legend{
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 10px;
+	font-weight:700;
+}
+/*Some adjustments*/
+.extra-space, p.extra-space{
+	text-align: center;
+    margin-bottom: 20px;
+}
+/*Adjusting the Buttons on Reset Password page*/
+#reset-pass-submit{
+	width:100% !important;
+	border:none !important;
+	padding:15px !important;
+	margin-top:15px;
+	cursor:pointer
+}
+/*Adjusting Feilds width on Password Rest page*/
+input[type=password].som-password-input {
+    max-width: 100% !important;
+}
+
+/*Stylings for Wishlist Page*/
+/*Some adjustments*/
+#tinvwl_product_actions input{
+	color:#000 !important
+}
+.tinv-wishlist tfoot .tinvwl-to-right {
+    width: 100% !important;
+}
+.tinv-wishlist .product-action {
+    width: 210px;
+}
+.tinv-wishlist table.tinvwl-table-manage-list {
+    border-radius: 10px;
+    box-shadow: 0px 5px 50px #0000001c;
+}
+.molti-wishlist th {
+    padding-top: 25px !important;
+}
+.molti-wishlist .product-name{
+	width:25% !important
+}
+/*Styling the Social Share Icons*/
+.tinv-wishlist .social-buttons li {
+    margin: 9px 15px 0 0;
+    border-radius: 100px;
+    box-shadow: 0px 5px 20px #0000001c;
+	transition:.2s ease;
+}
+/*Hover Styling the Social Share Icons*/
+.tinv-wishlist .social-buttons li:hover{
+	transform:scale(1.1);
+	box-shadow:0px 5px 30px #00000036;
+}
+/*Adjusting the Social Share Icons*/
+.tinv-wishlist .social-buttons>span {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #00000078;
+    margin-right: -5px;
+}
+/*Styling the "x" Icon */
+.tinv-wishlist .product-remove button{
+	cursor:pointer;
+	background: transparent;
+	font-weight:500;
+	transition:.3s ease;
+    position:relative
+}
+/*Hover Styling the "x" Icon */
+.tinv-wishlist .product-remove button:hover{
+	background: #ff8057;
+	color:#fff;
+}
+/*Adding the "Remove" text on delte product "x" icon*/
+.ftinvwl-check:before {
+    color: #ff8057;
+}
+/*Adds the arrow symbol on hover*/
+.tinv-wishlist .product-remove button:hover:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: -16px;
+    top: 38%;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #ff8057;
+    z-index: 1;
+}
+/*Some adjustment*/
+.tinv-wishlist .product-remove button:after{
+	color:#fff !important;
+}
+/*Adds the "Remove" text on "x" icon hover on Wishlist page*/
+.tinv-wishlist .product-remove button:hover:after {
+    content: "Remove";
+    position: absolute;
+    font-size: 10px;
+    background: #ff8057;
+    padding: 5px 5px;
+    border-radius: 3px;
+    left: -68px;
+    font-weight: 600;
+}
+
+/*Styling the Wishlist Modal*/
+/*Changing Heart Icon color*/
+.icon_big_heart_check::before {
+    color: #ff8057;
+}
+/*Styling Popup modal*/
+.tinv-wishlist .tinv-modal .tinv-modal-inner {
+    border-radius: 10px;
+    box-shadow: 0px 5px 50px #00000070;
+}
+/*Adjusting Buttons*/
+.tinv-modal .tinvwl-buttons-group button.tinvwl_button_close:not([disabled]):not(.disabled){
+    margin-top: 5px;
+    background: none !important;
+    box-shadow: none !important;
+    color: #00000080 !important;
+    border: 2px solid #eee !important;
+}
+#yith-quick-view-modal.open, #yith-quick-view-modal.open .yith-wcqv-wrapper {
+    z-index: 99999;
+}
+#yith-quick-view-modal:before{
+	display:none;
+}
+
+/*Styling for Single Product Page*/
+/*Adds White background to the Product Main Image*/
+.woocommerce div.product div.images .woocommerce-product-gallery__image {
+    background: #fff !important;
+}
+/*Adds white background to gallery images*/
+.woocommerce-product-gallery--columns-4 .flex-control-thumbs li {
+    background: #fff;
+}
+/*Adds Padding  to gallery images*/
+.woocommerce div.product div.images img {
+    padding: 20px;
+}
+/*Styling the Reset variation button*/
+.reset_variations {
+    float: left !important;
+    margin: 2em 0 1em 0 !important;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    border-radius: 4px;
+	transition:.2s ease !important;
+}
+/*Hover Styling the Reset variation button*/
+.reset_variations:hover{
+	box-shadow: 0px 5px 20px #0000001f;
+	transform:scale(1.1)
+}
+/*Adjustments & Styling to the Tabs On Product Page*/
+.et_pb_tabs_controls li, ul.et_pb_tabs_controls:after, .et_pb_tabs, .et_pb_wc_tabs{
+	border:none;
+}
+ul.et_pb_tabs_controls {
+    background-color: transparent;
+	margin-bottom: 25px;
+}
+.et_pb_tabs_controls li{
+    border: none;
+    margin: 10px;
+}
+/*Styling for the Tab Items*/
+.et_pb_tabs_controls li a{
+    padding: 13px 25px;
+    border-radius: 5px;
+	transition:.2s ease;
+}
+/*Hover background color for the Tab Item*/
+.et_pb_tabs_controls li a:hover{
+    background:#eee;
+}
+/*Styling Active Tab */
+.et_pb_tab_active  {
+    box-shadow: 0px 5px 30px #00000022;
+    border-radius: 5px !IMPORTANT;
+	transition:.2s ease;
+	transform:scale(1.1)
+}
+/*Adjusting the Active tab hover effect.*/
+.et_pb_tab_active a:hover{
+    background:#ff8057 !important;
+}
+/*Some adjustments to the tabs*/
+.et_pb_all_tabs {
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #00000012;
+}
+/*Styling the Reviews on Product Page*/
+.woocommerce-page #reviews #comments ol.commentlist li {
+    margin: 10px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+    width: 45%;
+	margin-bottom: 40px!important;
+    display: inline-grid;
+    padding-left: 5px;
+    padding-right: 20px;
+    border-radius: 10px;
+	box-shadow: 0px 10px 40px #00000026;
+    transition: .2s ease;	
+}
+/*Hover effect to the Reviews on Product Page*/
+.woocommerce-page #reviews #comments ol.commentlist li:hover {
+transform: scale(1.03);
+}
+/*Styling the Avatar Image on Reviews on Product Page*/
+.woocommerce #reviews #comments ol.commentlist li img.avatar{
+    border-radius: 100px;
+    margin: 10px;
+	position: relative;
+    margin-top: -105px;
+	border: 8px solid #fff;
+	box-shadow: 0px 19px 10px #00000012;
+}
+/*Adjustments to the Tabs*/
+.woocommerce-page #reviews #comments ol.commentlist li .comment-text {
+    margin: 15px 0 0 10px !important;
+}
+/*Changing the colors of Star Rating*/
+.woocommerce .star-rating span::before {
+    color: #ff8057 !IMPORTANT;
+}
+.woocommerce #review_form #respond p {
+    margin: 0px 5px 10px 0px;
+}
+/*Styling the "Text area" field*/
+.woocommerce #review_form #respond textarea, #commentform input[type="email"], #commentform input[type="text"], #commentform input[type="url"], #commentform textarea {
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #000;
+    font-weight: 600;background: #fff;
+    border: 2px solid #eee;
+}
+/*Styling the Reply Title*/
+.comment-reply-title{
+	font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+/*Some adjustments for Mobile*/
+@media only screen and ( max-width: 479px ) {
+
+.woocommerce-page #reviews #comments ol.commentlist li {
+width:95%;
+	}
+}
+
+
+/*Molti Styles for Headers*/
+.wishlist_products_counter_text img{
+	position: relative;
+    top: 2px;
+    right: -2px;
+    transform: scale(1.2);
+}
+/*Molti Header 7-8 CSS*/
+.molti-header-7-8 .wishlist_products_counter_number{
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 17px;
+    position: absolute;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    display: block;
+    top: -26px;
+    left: 12px !IMPORTANT;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 15%);
+    box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 15%);
+    color: #fff !important;
+    color: var(--color-cpops-cart-launcher-bubble-text);
+    background-color: #ff8057 !important;
+}
+ .wishlist_products_counter_text{
+	font-weight: 600;
+    color: #000;
+    font-size: 15px;
+}
+.molti-header-7-8 .cpops-icon-shopping-cart-line:before {
+    font-weight: 800;
+}
+.molti-header-7-8 .dgwt-wcas-no-submit .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input {
+    padding: 10px 15px 10px 50px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+}
+.molti-header-7-8 .dgwt-wcas-close {
+	background:#eee !important;
+    border-radius: 5px;
+    transform: scale(.70);
+}
+.molti-header-7-8 .dgwt-wcas-close:hover {
+    opacity: 1;
+}
+.molti-header-7-8 .et_mobile_menu{
+    width: 800% !important;
+    margin-left: -115px;
+    margin-top: 30px !important;
+}
+.molti-header-7-8 .et_mobile_nav_menu{
+	background: #eee;
+    padding: 4px;
+    border-radius: 5px !important;
+    margin-top: 2px;
+}
+
+.mobile_nav.opened .mobile_menu_bar:before {
+	    content: "\4d";
+}
+.mobile_menu_bar:before {
+	transition: all .4s ease;
+	transform: rotate(0deg);
+	display: block;
+}
+/*rotate the Divi Menu icon on click*/
+.mobile_nav.opened .mobile_menu_bar::before {
+	transition: all .4s ease;
+	transform: rotate(90deg);
+	display: block;
+}
+/*Molti Header 9-10 CSS*/
+.molti-header-9-10 .et_mobile_nav_menu{
+	background: #eee;
+    padding: 4px;
+    border-radius: 5px !important;
+    transform: scale(0.8);
+}
+.molti-header-9-10 .et_mobile_menu {
+    width: 800% !important;
+    margin-left: -115px;
+    margin-top: 30px !important;
+}
+.molti-header-9-10 .amount{
+	position: relative;
+    left: 12px;
+}
+.molti-header-9-10 .cpops-toggle-drawer {
+    position: absolute !important;
+    width: 40px;
+    height: 40px !important;
+    background: #eee !important;
+    padding: 9px 9px 4px 9px !important;
+    border-radius: 5px !important;
+    transition: .2s ease !important;
+    left: 55px;
+	overflow:hidden !important;
+}
+.molti-header-9-10 .cpops-toggle-drawer:hover .amount {
+    left:0;
+}
+.cartpops-cart__container-counter {
+	right: -19px !important;
+    top: -23px !important;
+}
+
+.molti-header-9-10 .cpops-toggle-drawer:hover{
+	width: 110px;
+	left:-12px;
+}
+
+/**/
+
+.wishlist_products_counter_number{
+	color: #000;
+    font-weight: 700;
+}
+.wishlist_products_counter.top_wishlist-heart.wishlist-counter-with-products:before {
+    transform:scale(.9);
+	position: relative;
+	top: -1px;
+	margin-bottom: 5px !important;
+}
+.molti-search-close:after{
+    content: "\4d";
+    font-family: 'ETmodules';
+    font-size: 26px;
+    background: #eee;
+    padding: 3px;
+    position: absolute;
+    top: 7px;
+    margin-left: -7px;
+	-webkit-animation: rotate-in-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotate-in-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+/*Fixing when scroll down the search goes below Row*/
+.dgwt-wcas-is-details .dgwt-wcas-suggestions-wrapp {
+    z-index: 9999999999 !IMPORTANT;
+}
+.dgwt-wcas-details-outside .dgwt-wcas-details-wrapp {
+    z-index: 999999998 !IMPORTANT;
+}
+
+
+/*Styling for FAQ Page*/
+/*Adds active indication to Tabs on FAQ Page*/
+.molti-active-faq{
+	box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.04);
+    transform: scale(1.1);
+	border-radius:10px;
+}
+/*Changes Heading Styles on Active Tab on FAQ Page*/
+.molti-active-faq h3{
+	color:#ff8057 !important;
+	font-weight:700 !important;
+	transition:.2s ease;
+}
+
+
+/*To add the New symbol on the Menu Item*/
+@media only screen and ( min-width: 1100px ) { 
+.molti-new-icon:before{
+    content: "New";
+    position: absolute;
+    top: 14px;
+    font-size: 10px;
+    right: -20px;
+    background: #ff8057;
+    color: #fff;
+    padding: 0px 3px 11px 3px;
+    height: 15px;
+    width: 35px;
+    text-align: center;
+    transform: scale(.8);
+    font-weight: 800;
+    text-transform: uppercase;
+	border-radius: 3px;
+}
+.main:before{
+    right: -3px;
+    padding: 3px 3px 3px 3px;
+    text-align: center;
+    transform: scale(.7);
+}
+}
+/*Creating a Pages toggle on Showcase Page*/
+.all-pages, .the-new{
+	color:#0000007a !important;
+}
+.all-pages:hover, .the-new:hover{
+	color:#0000007a !important;
+	background:#ff8057 !important;
+}
+.active-pages-toggle{
+	background:#ff8057 !important;
+	color:#fff !important;
+	box-shadow: 0px 5px 30px #00000036;
+}
+/*Fixing Click to Show Elements i.e Advanced Dropdown, Search Slide*/
+.hide-dp{
+	display:none;
+}
+/*Some adjustments for my account page*/
+.userreviewswshk table{
+	border:none !important;
+}
+.moc table.shop_table{
+	border:none !important;
+}
+
+/*Fixing Mega Menu*/
+
+.et-menu-nav li.mega-menu>ul:after{
+display:none;
+}
+.et-menu-nav li.mega-menu>ul{
+width:100% !important;
+}
+.et-menu-nav li.mega-menu.mega-menu-parent li>.sub-menu:after{
+display:none;
+}
+.et-menu-nav li.mega-menu.mega-menu-parent li>.sub-menu {
+box-shadow: none !important;
+background:transparent !important;
+}
+
+/*Fixing Avatar Photo in My Account*/
+.mrc img.avatar.photo {
+height: 40px;
+width: 40px !important;
+border: 0px none !important;
+border-radius: 100% !important;
+box-shadow: 0;
+overflow: hidden;
+margin: auto;
+}
+.molti-user-card img.avatar{
+position:relative;
+top:15px;
+left:-10px;
+padding:none !Important;
+}
+
+/*Fixing Issue with Content Switches*/
+.monthly-button, .featured-button {
+	z-index:20;
+}
+
+/*Fixing Strange numbers showing in My Account in some situations*/
+.wshkcounters{
+display:none;
+}
+.molti-account-area .wshkcounters{
+display:block !important;
+}
+
+
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+
+
+
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}

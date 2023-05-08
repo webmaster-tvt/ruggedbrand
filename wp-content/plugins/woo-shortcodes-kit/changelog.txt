@@ -1,0 +1,36 @@
+----------------------------------------------------------------------------------------------------------------------
+Woo Shortcodes Kit v 2.0.2 (18/04/22) by Alberto G. - https://disespubli.com/
+
+Included:
+
+== Changelog ==
+
+= 2.0.2 =
+ *Changelog (18/04/22)
+
+
+UPDATED
+-----------
+
++ Edit-account template.
+
++ English template
+
++ Spanish translation
+
+
+COMPATIBILITY TEST
+--------------------
+
++ Compatible with WordPress 5.9.3
+
++ Compatible with WooCommerce 6.4.1
+
++ Compatible with Woo Shortcodes Kit PRO 1.1.9
+
++ Compatible with Easy My Account Builder 1.0.9
+
++ Compatible with Php 7.4
+
+
+[Old changelogs](https://disespubli.com/docs/)

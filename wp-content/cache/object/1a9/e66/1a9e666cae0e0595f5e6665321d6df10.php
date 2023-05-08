@@ -1,0 +1,1 @@
+B@Xd<?php exit; ?>a:1:{s:7:"content";a:2:{s:17:"_et_pb_row_layout";a:1:{i:0;s:7:"1_4,3_4";}s:26:"_et_pb_built_for_post_type";a:1:{i:0;s:4:"page";}}}

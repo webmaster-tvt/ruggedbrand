@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+
+$font-stack: 'Assistant', sans-serif;
+
+body.toplevel_page_eti {
+  background-color: #f9f9f9;
+
+  .eti_logo {
+    max-width: 250px;
+  }
+
+  #poststuff {
+
+    .postbox {
+      border: none;
+      border-radius: 25px;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+
+      .eti_box_clear {
+        display: table;
+        clear: both;
+      }
+
+      .inside {
+        margin: 0;
+        padding: 10px 30px 30px 30px;
+        max-width: 800px;
+      }
+
+      h2 {
+        font-size: 18px;
+        padding: 20px 0;
+        margin: 0 30px;
+        line-height: 1.4;
+      }
+
+      &.eti_import_summary.eti_feature_box {
+        display: none;
+
+        .inside {
+          max-width: 800px;
+        }
+      }
+
+      &.eti_feature_box {
+        background-color: #efe8e1;
+        background-image: url('sitepresser-overlay.png');
+        background-position: 50% 75%;
+        background-repeat: no-repeat;
+        padding-bottom: 250px;
+        background-size: 80%;
+
+        h2 {
+          border-bottom: none;
+          background-color: white;
+          margin: 0;
+          padding: 20px 30px;
+          border-top-left-radius: 25px;
+          border-top-right-radius: 25px;
+        }
+
+        .inside {
+          max-width: inherit;
+        }
+      }
+    }
+  }
+
+}
+
+.eti_settings {
+  margin-bottom: 50px;
+
+  .eti_message {
+    .eti_error, .eti_updated {
+      p {
+        background-color: #ceae82;
+        color: #FFF;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+
+        a {
+          color: #FFF;
+        }
+      }
+    }
+  }
+
+  /**general colour and size overrides for the brand*/
+
+  a {
+    cursor: pointer;
+    color: #ba8337;
+  }
+
+  p {
+    color: #000;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 20px;
+
+    .eti_label {
+      margin-bottom: 10px;
+      display: block;
+      font-weight: bold;
+    }
+
+    .eti_desc {
+      display: block;
+      font-size: 12px;
+
+      cite {
+        a {
+          color: #000;
+          text-decoration: none;
+        }
+      }
+
+      &.eti_indent {
+        margin: 0px 0 0 74px;
+      }
+    }
+  }
+
+  .eti_summary {
+    display: none;
+
+    table {
+      color: #000;
+      font-size: 16px;
+      background-color: #f9f9f9;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      border: none;
+      width: 100%;
+      padding: 10px;
+
+      th, td {
+        padding: 5px 20px;
+        color: #000;
+        text-align: left;
+      }
+    }
+  }
+
+  .dashicons {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .docs_links {
+    text-align: center;
+  }
+
+  .docs_link {
+    text-align: center;
+    display: inline-block;
+    padding: 0 20px;
+
+    a {
+      font-size: 30px;
+      text-decoration: none;
+      color: #000;
+
+      .dashicons {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 50px;
+        display: inline-block;
+        margin-right: 10px;
+        color: #000;
+      }
+    }
+  }
+
+  .docs_video {
+    margin-bottom: 20px;
+    text-align: center;
+
+    iframe {
+      max-width: 100%;
+      background-color: #EFEFEF;
+    }
+  }
+
+  .docs_logo {
+    margin-bottom: 20px;
+    text-align: center;
+
+    img {
+      display: inline-block;
+    }
+  }
+
+  .eti_button {
+    background-color: #ceae82;
+    border-color: #ceae82;
+    color: #fff;
+    line-height: 1em;
+    padding: 16px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #000;
+      border-color: #000;
+    }
+
+    &.eti_edit_submit {
+      padding: 20px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      font-size: 24px;
+    }
+  }
+
+  /*end branding general*/
+
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 1em;
+  }
+
+  .eti_import_progress {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #f9f9f9;
+    height: 40px;
+    margin-top: 10px;
+
+    .eti_current_progress {
+      display: inline-block;
+      background-color: #000;
+      min-width: 40px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      height: 40px;
+      -webkit-transition: width 400ms ease;
+      -moz-transition: width 400ms ease;
+      -ms-transition: width 400ms ease;
+      -o-transition: width 400ms ease;
+      transition: width 400ms ease;
+      position: relative;
+
+      span {
+        position: absolute;
+        /* top: 0; */
+        right: 15px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+        color: #fff;
+      }
+    }
+  }
+
+  .eti_import_feedback {
+    max-width: 1000px;
+    margin-top: 20px;
+
+    > div {
+      background-color: #f9f9f9;
+      padding: 20px;
+      margin-bottom: 20px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+
+      .item_name {
+        font-size: 16px;
+        display: inline-block;
+        line-height: 30px;
+        color: #000;
+      }
+
+      .eti_status {
+        float: right;
+
+        & > .dashicons {
+          color: #ba8337;
+        }
+
+        .dashicons {
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          font-size: 30px;
+          display: inline-block;
+        }
+
+        a {
+          color: #000;
+          font-size: 14px;
+          line-height: 30px;
+          display: inline-block;
+          margin-right: 10px;
+          cursor: pointer;
+          border: 1px solid #efe8e1;
+          border-radius: 15px;
+          padding: 0 5px;
+
+          > span {
+            display: inline-block;
+            padding: 0 5px;
+
+            &.re {
+              color: #aa0000;
+            }
+
+            &.am {
+              color: #ceae82;
+            }
+
+            &.gr {
+              color: #000;
+            }
+          }
+
+          .dashicons {
+            margin-left: 5px;
+            width: 18px;
+            height: 18px;
+            line-height: 30px;
+            font-size: 18px;
+          }
+        }
+
+        &.failed > .dashicons {
+          color: #aa0000;
+        }
+      }
+
+      .eti_logs {
+        display: none;
+        margin-top: 10px;
+
+        .eti_log_item {
+          padding: 10px 15px;
+          background-color: #FFF;
+          border: 1px solid #efe8e1;
+          margin-bottom: 10px;
+          font-size: 14px;
+          border-radius: 15px;
+
+          .eti_button {
+            display: inline-block;
+            margin: 5px 5px 5px 0;
+          }
+
+          .eti_path_output {
+            display: inline-block;
+            font-family: courier;
+            background-color: rgba(0, 0, 0, 0.04);
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-size: 13px;
+
+            a {
+              text-decoration: none;
+            }
+          }
+
+          &.severity_high {
+            border-color: #aa0000;
+          }
+
+          &.severity_med {
+            border-color: #ceae82;
+          }
+
+          &.severity_low {
+            border-color: #efe8e1;
+          }
+        }
+      }
+    }
+  }
+
+  .eti_tick_non_toggle {
+    .dashicons {
+      color: #009933;
+      width: 34px;
+      height: 34px;
+      line-height: 34px;
+      font-size: 34px;
+      display: inline-block;
+      margin-right: 0;
+    }
+  }
+
+  .eti_import_complete {
+    p {
+      .eti_feedback_headline {
+        display: block;
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      font-size: 17px;
+    }
+  }
+
+  .eti_on_off_label {
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 35px;
+  }
+
+  .eti_on_off_switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+    input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+
+      &:checked + .eti_on_off_slider {
+        background-color: #000;
+      }
+
+      &:focus + .eti_on_off_slider {
+        box-shadow: 0 0 1px #000;
+      }
+
+      &:checked + .eti_on_off_slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+      }
+    }
+
+    .eti_on_off_slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+      border-radius: 34px;
+
+      &:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .eti_clear {
+    clear: both;
+  }
+
+}

@@ -1,0 +1,1 @@
+-@Xd<?php exit; ?>a:1:{s:7:"content";s:96:"a:1:{s:51:"ti-woocommerce-wishlist/ti-woocommerce-wishlist.php";s:23:"uninstall_tinv_wishlist";}";}

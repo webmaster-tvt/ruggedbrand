@@ -1,0 +1,1 @@
+/home/u389210813/domains/rugged-brand.com/public_html/wp-content/plugins/query-monitor/wp-content/db.php

@@ -1,0 +1,1 @@
+F@Xd<?php exit; ?>a:1:{s:7:"content";s:75:"{{WP_PLUGIN_DIR}}/yith-woocommerce-quick-view/templates/yith-quick-view.php";}

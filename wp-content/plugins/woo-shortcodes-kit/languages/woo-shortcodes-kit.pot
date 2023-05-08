@@ -1,0 +1,4241 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-18 08:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: settings/build-your-account-page/hide-login-errors-setting.php:22
+msgid ""
+"\n"
+"By default, WooCommerce shows form failures when entering an incorrect field."
+"\n"
+"\n"
+"For example, if you add the password incorrectly, it will indicate that the "
+"password is incorrect. The same happens if you make a mistake in the user.\n"
+"\n"
+"This function prevents this type of information from being displayed and "
+"also allows you to add a personalized message."
+msgstr ""
+
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:59
+msgid ""
+" Just need click in the WooCommerce settings link and remove the page from "
+"the shop page field."
+msgstr ""
+
+#: settings/wc-additional-settings/skip-cart-and-goto-checkout-setting.php:26
+msgid " to disable option: Redirect to the cart page after successful addition"
+msgstr ""
+
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:59
+msgid " to disable the shop page option"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:90
+msgid ""
+" to disable the WooCommerce Privacy page option and remove the Privacy "
+"policy default texts"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:69
+msgid " to disable the WooCommerce terms and conditions default page option"
+msgstr ""
+
+#: settings/wc-additional-settings/add-name-and-surname-fields-wc-register-form-setting.php:31
+msgid ""
+" to enable the option: Allow customers to create an account on the \"My "
+"account\" page"
+msgstr ""
+
+#: sections/recommends-section.php:32
+msgid "(All plugins have been tried before.)"
+msgstr ""
+
+#: sections/contact-section.php:33
+msgid "(Available on the official website)"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:35
+msgid "(looking for completed and in process orders)"
+msgstr ""
+
+#: woo-shortcodes-kit.php:192
+msgid "(Some functions use a shortcode to be displayed in the Frontend)"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:17
+msgid "(Some shortcodes need enable his function to work)"
+msgstr ""
+
+#: sections/news-section.php:30
+msgid "(The content will be updated each version)"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:23
+msgid ""
+"(You can also set a minimum number of downloads or sales that a product must "
+"have to display the message below)"
+msgstr ""
+
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:28
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:31
+msgid "-1 to show all products"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-loop-setting.php:74
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:151
+msgid "1"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-loop-setting.php:74
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:151
+msgid "2"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-loop-setting.php:74
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:151
+msgid "3"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:127
+#: settings/user-data/customer-total-orders-counter-setting.php:125
+msgid "365"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-loop-setting.php:74
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:151
+msgid "4"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:99
+msgid "50"
+msgstr ""
+
+#: functions/wshk-adapt-to-gdpr.php:269
+msgid "<b>Privacy Policy</b> is a required field"
+msgstr ""
+
+#: functions/wshk-adapt-to-gdpr.php:693
+msgid "<b>Terms & Conditions</b> is a required field"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:31
+msgid "[off]Content here[/off]"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:31
+msgid "[wshk]Content here[/wshk]"
+msgstr ""
+
+#: functions/wshk-adapt-to-gdpr.php:292 functions/wshk-adapt-to-gdpr.php:715
+msgid "Accepted"
+msgstr ""
+
+#: woo-shortcodes-kit.php:213
+msgid "ACCOUNT PAGE"
+msgstr ""
+
+#: sections/languages-section.php:169
+msgid "ACTION"
+msgstr ""
+
+#: settings/customize-the-shop-page/conditional-add-to-cart-button.php:17
+msgid "Activate the function and clic here to configure it"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:14
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:14
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:14
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:14
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:14
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:15
+#: settings/user-data/customer-purchased-products-counter-setting.php:14
+#: settings/user-data/customer-purchased-products-loop-setting.php:14
+#: settings/user-data/conditional-message-setting.php:14
+#: settings/user-data/customer-total-orders-counter-setting.php:14
+#: settings/user-data/customer-total-reviews-counter-setting.php:14
+#: settings/user-data/username-sht-setting.php:14
+#: settings/user-data/user-gravatar-image-sht-setting.php:14
+#: settings/build-your-account-page/hide-login-errors-setting.php:14
+#: settings/build-your-account-page/login-form-sht-setting.php:14
+#: settings/build-your-account-page/logout-button-sht-setting.php:14
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:14
+#: settings/build-your-account-page/orders-list-sht-setting.php:15
+#: settings/build-your-account-page/display-wc-notices-setting.php:14
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:14
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:14
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:16
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:14
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:14
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:14
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:15
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:15
+#: settings/wc-additional-settings/limit-the-number-of-products-inthe-cart-setting.php:14
+#: settings/wc-additional-settings/product-thumbnail-in-email-order-setting.php:15
+#: settings/wc-additional-settings/skip-cart-and-goto-checkout-setting.php:14
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:14
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:14
+#: settings/wc-additional-settings/add-name-and-surname-fields-wc-register-form-setting.php:14
+#: settings/wc-additional-settings/conditional-menu-setting.php:16
+msgid "Activate the function and click here to configure it"
+msgstr ""
+
+#: settings/add-security-to-shop/wp-no-send-users-setting.php:25
+msgid ""
+"Activating this function we make sure to zero the blog and the number of "
+"users."
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:23
+msgid ""
+"Add a different text for the downloadable products and another for the rest "
+"of the products."
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:14
+msgid "Add security headers in your website"
+msgstr ""
+
+#: settings/wc-additional-settings/add-name-and-surname-fields-wc-register-form-setting.php:14
+msgid "Add the Name and Surname fields in WooCommerce Register form"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:41
+msgid "Add to cart"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:129
+msgid "Add your custom link text"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:65
+msgid "add your custom link text here"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:62
+msgid "Add your custom prefix"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:97
+msgid "Add your custom Prefix and Suffix"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:35
+msgid "add your custom text here"
+msgstr ""
+
+#: sections/contact-section.php:270
+msgid "ADD YOUR REVIEW!"
+msgstr ""
+
+#: woo-shortcodes-kit.php:477
+msgid "ADDITIONAL SETTINGS"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:156
+msgid "Additional shortcode"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:165
+msgid "Addons"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:581
+msgid "Addresses"
+msgstr ""
+
+#: settings/add-security-to-shop/block-admintopbar-setting.php:22
+msgid ""
+"After activating this function, no user can access the backend from the top "
+"bar of the administrator, because it will be hidden."
+msgstr ""
+
+#: settings/add-security-to-shop/block-wpadmin-login-setting.php:22
+msgid ""
+"After activating this function, nobody will be able to access wp-admin or wp-"
+"login.php , you can choose the page to redirect the users or will be "
+"redirected to the \"My Account\" page of WooCommerce by default."
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:112
+msgid ""
+"After choosing the display options, you just need to use the following "
+"shortcode on your product page or product template"
+msgstr ""
+
+#: settings/wc-additional-settings/skip-cart-and-goto-checkout-setting.php:26
+#: settings/wc-additional-settings/add-name-and-surname-fields-wc-register-form-setting.php:31
+msgid "After enable the function and save the settings..."
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:27
+msgid ""
+"After enable this function, if you have any product on sale... a badge with "
+"the saving price and percentages will be displayed under each product price."
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:27
+msgid ""
+"After enable this function, if you have any variable products it will "
+"display the max or min price... depending of what do you have choosed on the "
+"function options."
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:98
+msgid "After shop loop item"
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:119
+msgid ""
+"After the login the users with a specific role will be redirected to the "
+"selected page."
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:110
+msgid ""
+"After the login, the user will be redirected to the previously visited page "
+"and, if this is not possible, will be redirected to the page selected in "
+"step 2."
+msgstr ""
+
+#. Author of the plugin
+msgid "Alberto G."
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:29
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:58
+msgid "All"
+msgstr ""
+
+#: settings/wc-additional-settings/autocomplete-virtual-orders-setting.php:28
+msgid ""
+"All the orders with virtual products will be changed to the completed status."
+msgstr ""
+
+#: settings/user-data/user-role-sht-setting.php:89
+msgid "All user roles"
+msgstr ""
+
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:154
+msgid ""
+"Allow the search for products from other categories in the product search "
+"form."
+msgstr ""
+
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:164
+msgid ""
+"Allow the search for products from the selected categories in the product "
+"search form."
+msgstr ""
+
+#: sections/news-section.php:199
+msgid ""
+"Also is ready to work with the new WordPress v.5.9.3 and WooCommerce v.6.4.1"
+msgstr ""
+
+#: sections/news-section.php:253
+msgid ""
+"Also works correctly with Woo Shortcodes Kit v.2.0.0, WordPress v.5.9 and "
+"WooCommerce v.6.1.1"
+msgstr ""
+
+#: sections/news-section.php:226
+msgid ""
+"Also works correctly with Woo Shortcodes Kit v.2.0.2, WordPress v.5.9.3 and "
+"WooCommerce v.6.4.1"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:99
+msgid "Also you can use negative quantity to decrease the total."
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:141
+#: settings/user-data/customer-purchased-products-counter-setting.php:144
+#: settings/user-data/customer-total-orders-counter-setting.php:139
+#: settings/user-data/customer-total-orders-counter-setting.php:142
+#: settings/user-data/customer-total-reviews-counter-setting.php:131
+#: settings/user-data/user-gravatar-image-sht-setting.php:123
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:92
+#: settings/build-your-account-page/edit-account-sht-setting.php:92
+#: settings/build-your-account-page/payment-methods-sht-setting.php:93
+#: settings/build-your-account-page/orders-list-sht-setting.php:135
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:97
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:105
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:122
+msgid "and activate your"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:130
+#: settings/user-data/customer-purchased-products-counter-setting.php:144
+#: settings/user-data/customer-total-orders-counter-setting.php:128
+#: settings/user-data/customer-total-orders-counter-setting.php:142
+#: settings/user-data/customer-total-reviews-counter-setting.php:119
+#: settings/user-data/customer-total-reviews-counter-setting.php:131
+msgid "Animate the counter"
+msgstr ""
+
+#: settings/user-data/customer-total-orders-counter-setting.php:132
+msgid "Animate the customer total orders counter"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:134
+msgid "Animate the customer total products counter"
+msgstr ""
+
+#: settings/user-data/customer-total-reviews-counter-setting.php:123
+msgid "Animate the customer total reviews counter"
+msgstr ""
+
+#: settings/wc-additional-settings/autocomplete-virtual-orders-setting.php:14
+msgid "Autocomplete the virtual products orders"
+msgstr ""
+
+#: sections/languages-section.php:168 sections/languages-section.php:253
+msgid "AVAILABLE"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:84
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:82
+msgid "Avatar border (color):"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:80
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:78
+msgid "Avatar border (radius):"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:79
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:77
+msgid "Avatar border (size):"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:81
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:79
+msgid "Avatar border (type):"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:85
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:83
+msgid "Avatar cell (width):"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:84
+msgid "Avatar margin top:"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:86
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:85
+msgid "Avatar shadow:"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:78
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:76
+msgid "Avatar size:"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:35
+msgid "Background color:"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:100
+msgid "Before add to cart form"
+msgstr ""
+
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:14
+msgid "Billing and shipping addresses shortcode"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:36
+msgid "Billing user address"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:37
+msgid "Billing user address 2"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:39
+msgid "Billing user city"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:46
+msgid "Billing user company"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:42
+msgid "Billing user country code"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:43
+msgid "Billing user country name"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:45
+msgid "Billing user email"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:33
+msgid "Billing user ID"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:35
+msgid "Billing user lastname"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:34
+msgid "Billing user name"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:44
+msgid "Billing user phone"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:38
+msgid "Billing user post code"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:40
+msgid "Billing user state code"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:41
+msgid "Billing user state name"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:40
+#: settings/add-security-to-shop/security-headers-setting.php:69
+msgid "Block Access If XSS Attack Is Suspected"
+msgstr ""
+
+#: settings/add-security-to-shop/block-admintopbar-setting.php:14
+msgid "Block users access to the backend from the top administrator bar"
+msgstr ""
+
+#: settings/add-security-to-shop/block-wpadmin-login-setting.php:14
+msgid "Block users access to wp-admin and wp-login.php"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:94
+msgid "Boder color:"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:47
+msgid "Border (color):"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:48
+msgid "Border (radius):"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:36
+msgid "Border (size):"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:37
+msgid "Border (type):"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:96
+msgid "Border radius:"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:84
+msgid "Border size:"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:91
+msgid "Border type:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:278
+msgid "Bought products"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:60
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:52
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:55
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:59
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:98
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:106
+msgid "Box background (color):"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:59
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:51
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:54
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:58
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:97
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:105
+msgid "Box border (color):"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:57
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:49
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:52
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:56
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:93
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:101
+msgid "Box border (radius):"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:56
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:48
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:51
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:55
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:92
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:100
+msgid "Box border (size):"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:58
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:50
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:53
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:57
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:94
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:102
+msgid "Box border (type):"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:91
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:99
+msgid "Box Font (size):"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:108
+msgid "Box height:"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:61
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:53
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:56
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:60
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:99
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:107
+msgid "Box padding:"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:110
+msgid "Box text color:"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:38
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:67
+msgid "BOX:"
+msgstr ""
+
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:14
+msgid "Build a new shop page from scratch"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:163
+msgid "Build my account"
+msgstr ""
+
+#: sections/recommends-section.php:181
+msgid ""
+"Build your custom WooCommerce account page without limits and using your "
+"favourite page builder. \"Woo Account Widgets for Elementor\" does not work "
+"alone. It is originally created to use with WooCommerce and Elementor, also "
+"is compatible with WooCommerce Subscriptions, WooCommerce Memberships and "
+"Woo Shortcodes Kit."
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:85
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:106
+msgid "Button border (color):"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:84
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:104
+msgid "Button border (radius):"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:83
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:103
+msgid "Button border (size):"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:86
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:107
+msgid "Button border (type):"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:110
+msgid "Button target:"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:96
+msgid "Button text-align:"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:94
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:111
+msgid "Button text-decoration:"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:93
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:112
+msgid "Button text:"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:95
+msgid "Button width:"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:33
+msgid "Buy this product"
+msgstr ""
+
+#: settings/build-your-account-page/orders-list-sht-setting.php:105
+msgid ""
+"By activating this option, the custom WSHK View Order template will not be "
+"loaded and the default WooCommerce View Order template will be loaded by "
+"default."
+msgstr ""
+
+#: settings/build-your-account-page/orders-list-sht-setting.php:88
+msgid "By default 15 orders per page will be displayed"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:32
+msgid "By default is selected the option to display the max price."
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:90
+msgid "By default is selected the option to hide the by default badge."
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:101
+#: settings/user-data/customer-total-orders-counter-setting.php:99
+#: settings/user-data/customer-total-reviews-counter-setting.php:97
+msgid ""
+"By default is selected the option to show the shortcode without the solution,"
+" if you dont see the shortcode in his place, please choose the other option."
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:144
+#: settings/user-data/customer-total-orders-counter-setting.php:142
+#: settings/user-data/customer-total-reviews-counter-setting.php:131
+msgid ""
+"By default the function display a static counter, with this option the "
+"number will be animated."
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:124
+#: settings/user-data/customer-purchased-products-counter-setting.php:141
+#: settings/user-data/customer-total-orders-counter-setting.php:122
+#: settings/user-data/customer-total-orders-counter-setting.php:139
+msgid ""
+"By default the function display data of the last 365 days, but now you can "
+"modify it with your custom number of days."
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:96
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:105
+msgid ""
+"By default the function display the total shop products, but now you can "
+"modify it manually and increase the quantity."
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:62
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:97
+msgid ""
+"By default the function will show a prefix, but you can replace it with your "
+"custom prefix and also add a custom suffix."
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:107
+msgid ""
+"By default the logout button will redirect the users to the WooCommerce my "
+"account page, but you can change it for your custom page."
+msgstr ""
+
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:162
+msgid ""
+"By default this function will work on the shop page and in the products "
+"search form. So if you choose to show 3 categories only those will be "
+"excluded, but now you can decide if you want to limit the function to work "
+"only on the shop page and allow the search for product from the selected "
+"categories in the product search form."
+msgstr ""
+
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:152
+msgid ""
+"By default this function will work on the shop page and in the products "
+"search form. So if you choose to show 3 categories only those will be shown, "
+"but now you can decide if you want to limit the function to work only on the "
+"shop page and allow the search for product from other categories in the "
+"product search form."
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:29
+msgid ""
+"By default, it will display the message without counting the number of "
+"downloads."
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:58
+msgid ""
+"By default, it will display the message without counting the number of sales."
+msgstr ""
+
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:55
+msgid ""
+"By default, the button shows the text \"Return to shop\" and redirects to "
+"the default store page, but for example, you can type the text \"Go to the "
+"store\" and choose a different page to redirect."
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:96
+#: settings/user-data/customer-total-orders-counter-setting.php:94
+#: settings/user-data/customer-total-reviews-counter-setting.php:93
+#: settings/user-data/username-sht-setting.php:98
+#: settings/build-your-account-page/logout-button-sht-setting.php:97
+msgid "Center"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:16
+msgid "Change the \"Add to cart\" button text"
+msgstr ""
+
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:14
+msgid "Change the return to shop button text and add custom redirection"
+msgstr ""
+
+#: settings/customize-the-shop-page/conditional-add-to-cart-button.php:29
+msgid ""
+"Change the text of the \"Add to cart\" button if the user has already "
+"purchased the product"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:27
+msgid ""
+"Change the text of the Add to cart button and write a different text in each "
+"case"
+msgstr ""
+
+#: sections/contact-section.php:207
+msgid "CHANGELOG"
+msgstr ""
+
+#: sections/contact-section.php:210
+msgid "CHECK NOW!"
+msgstr ""
+
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:68
+msgid "Check that the following functions are not activated:"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:54
+#: settings/add-security-to-shop/security-headers-setting.php:83
+msgid "CHECK YOUR SITE NOW"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:32
+msgid "Choose between display the max or min price:"
+msgstr ""
+
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:23
+msgid "Choose the category you want to display on the shop page."
+msgstr ""
+
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:22
+msgid "Choose the category you want to exclude on the shop page."
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:32
+msgid "Choose the location from the menu where you want to apply the changes"
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:59
+msgid "Choose the menu for logged in users:"
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:87
+msgid "Choose the menu for non logged in users:"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:152
+msgid "Choose the number of columns that you want display the reviews"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-loop-setting.php:72
+#: settings/user-data/conditional-message-setting.php:72
+msgid "Choose the number of columns to display the products loop"
+msgstr ""
+
+#: settings/user-data/username-in-menu-title-setting.php:81
+#: settings/user-data/user-role-sht-setting.php:81
+#: settings/user-data/username-sht-setting.php:87
+msgid "Choose the option that you want display with this shortcode"
+msgstr ""
+
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:25
+msgid "Choose the page of your new shop page"
+msgstr ""
+
+#: settings/add-security-to-shop/block-wpadmin-login-setting.php:24
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:31
+msgid "Choose the page to redirect"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:107
+msgid "Choose the page to redirect the user after logging out"
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:76
+msgid "Choose the page to redirect the user after login"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:38
+msgid "Choose the terms and conditions page"
+msgstr ""
+
+#: settings/user-data/username-in-menu-title-setting.php:77
+#: settings/user-data/user-role-sht-setting.php:77
+msgid "Choose what should display the shortcode"
+msgstr ""
+
+#: settings/user-data/conditional-message-setting.php:84
+msgid "Coming soon more gifts"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:784
+msgid "Coming soon..."
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:112
+msgid "Comment character limit:"
+msgstr ""
+
+#: settings/customize-the-shop-page/conditional-add-to-cart-button.php:16
+msgid "Conditional \"Add to cart\" button for purchased products"
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:16
+msgid "Conditional menu"
+msgstr ""
+
+#: settings/user-data/conditional-message-setting.php:14
+msgid "Conditional message to the customer according to their number of orders"
+msgstr ""
+
+#: sections/contact-section.php:192
+msgid "CONTACT"
+msgstr ""
+
+#: woo-shortcodes-kit.php:154
+msgid "Contact"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:56
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:56
+#: settings/user-data/customer-purchased-products-counter-setting.php:57
+#: settings/user-data/product-purchases-by-current-user-setting.php:56
+#: settings/user-data/customer-purchased-products-loop-setting.php:56
+#: settings/user-data/conditional-message-setting.php:56
+#: settings/user-data/username-in-menu-title-setting.php:59
+#: settings/user-data/user-ip-sht-setting.php:56
+#: settings/user-data/customer-total-orders-counter-setting.php:57
+#: settings/user-data/user-role-sht-setting.php:59
+#: settings/user-data/username-and-surname-sht-setting.php:56
+#: settings/user-data/customer-total-reviews-counter-setting.php:56
+#: settings/user-data/user-email-sht-setting.php:56
+#: settings/user-data/username-sht-setting.php:56
+#: settings/user-data/user-gravatar-image-sht-setting.php:56
+#: settings/build-your-account-page/login-form-sht-setting.php:58
+#: settings/build-your-account-page/logout-button-sht-setting.php:56
+#: settings/build-your-account-page/downloads-list-sht-setting.php:56
+#: settings/build-your-account-page/dashboard-sht-setting.php:56
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:56
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:56
+#: settings/build-your-account-page/edit-account-sht-setting.php:56
+#: settings/build-your-account-page/payment-methods-sht-setting.php:57
+#: settings/build-your-account-page/orders-list-sht-setting.php:63
+#: settings/build-your-account-page/display-wc-notices-setting.php:56
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:56
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:56
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:56
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:56
+msgid "Copied:"
+msgstr ""
+
+#: sections/languages-section.php:140 sections/languages-section.php:148
+#: sections/languages-section.php:156
+msgid "COPY"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:38
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:38
+#: settings/user-data/customer-purchased-products-counter-setting.php:39
+#: settings/user-data/product-purchases-by-current-user-setting.php:38
+#: settings/user-data/customer-purchased-products-loop-setting.php:38
+#: settings/user-data/conditional-message-setting.php:38
+#: settings/user-data/username-in-menu-title-setting.php:41
+#: settings/user-data/user-ip-sht-setting.php:38
+#: settings/user-data/customer-total-orders-counter-setting.php:39
+#: settings/user-data/user-role-sht-setting.php:41
+#: settings/user-data/username-and-surname-sht-setting.php:38
+#: settings/user-data/customer-total-reviews-counter-setting.php:38
+#: settings/user-data/user-email-sht-setting.php:38
+#: settings/user-data/username-sht-setting.php:38
+#: settings/user-data/user-gravatar-image-sht-setting.php:38
+#: settings/build-your-account-page/login-form-sht-setting.php:40
+#: settings/build-your-account-page/logout-button-sht-setting.php:38
+#: settings/build-your-account-page/downloads-list-sht-setting.php:38
+#: settings/build-your-account-page/dashboard-sht-setting.php:38
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:38
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:38
+#: settings/build-your-account-page/edit-account-sht-setting.php:38
+#: settings/build-your-account-page/payment-methods-sht-setting.php:39
+#: settings/build-your-account-page/orders-list-sht-setting.php:48
+#: settings/build-your-account-page/display-wc-notices-setting.php:38
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:38
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:38
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:38
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:38
+msgid "Copy shortcode"
+msgstr ""
+
+#: settings/user-data/user-ip-sht-setting.php:65
+#: settings/user-data/username-and-surname-sht-setting.php:65
+#: settings/user-data/user-email-sht-setting.php:65
+#: settings/user-data/username-sht-setting.php:65
+#: settings/user-data/user-gravatar-image-sht-setting.php:65
+#: settings/build-your-account-page/login-form-sht-setting.php:67
+#: settings/build-your-account-page/logout-button-sht-setting.php:65
+#: settings/build-your-account-page/downloads-list-sht-setting.php:65
+#: settings/build-your-account-page/dashboard-sht-setting.php:65
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:65
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:65
+#: settings/build-your-account-page/edit-account-sht-setting.php:65
+#: settings/build-your-account-page/payment-methods-sht-setting.php:66
+#: settings/build-your-account-page/orders-list-sht-setting.php:76
+msgid "Copy the shortcode and paste in your custom account page"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-loop-setting.php:65
+#: settings/user-data/conditional-message-setting.php:65
+#: settings/build-your-account-page/display-wc-notices-setting.php:65
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:65
+msgid "Copy the shortcode and paste in your custom page"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:65
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:65
+#: settings/user-data/customer-purchased-products-counter-setting.php:66
+#: settings/user-data/product-purchases-by-current-user-setting.php:65
+#: settings/user-data/customer-total-orders-counter-setting.php:66
+#: settings/user-data/customer-total-reviews-counter-setting.php:65
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:65
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:65
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:65
+msgid "Copy the shortcode and paste in your custom post or page"
+msgstr ""
+
+#: settings/user-data/username-in-menu-title-setting.php:68
+#: settings/user-data/user-role-sht-setting.php:68
+msgid "Copy the shortcode and paste on any page or post"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:17
+msgid "Copy the shortcode and paste where you want."
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:37
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:61
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:37
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:61
+#: settings/user-data/customer-purchased-products-counter-setting.php:38
+#: settings/user-data/customer-purchased-products-counter-setting.php:62
+#: settings/user-data/product-purchases-by-current-user-setting.php:37
+#: settings/user-data/product-purchases-by-current-user-setting.php:61
+#: settings/user-data/customer-purchased-products-loop-setting.php:37
+#: settings/user-data/customer-purchased-products-loop-setting.php:61
+#: settings/user-data/conditional-message-setting.php:37
+#: settings/user-data/conditional-message-setting.php:61
+#: settings/user-data/username-in-menu-title-setting.php:40
+#: settings/user-data/username-in-menu-title-setting.php:64
+#: settings/user-data/user-ip-sht-setting.php:37
+#: settings/user-data/user-ip-sht-setting.php:61
+#: settings/user-data/customer-total-orders-counter-setting.php:38
+#: settings/user-data/customer-total-orders-counter-setting.php:62
+#: settings/user-data/user-role-sht-setting.php:40
+#: settings/user-data/user-role-sht-setting.php:64
+#: settings/user-data/username-and-surname-sht-setting.php:37
+#: settings/user-data/username-and-surname-sht-setting.php:61
+#: settings/user-data/customer-total-reviews-counter-setting.php:37
+#: settings/user-data/customer-total-reviews-counter-setting.php:61
+#: settings/user-data/user-email-sht-setting.php:37
+#: settings/user-data/user-email-sht-setting.php:61
+#: settings/user-data/username-sht-setting.php:37
+#: settings/user-data/username-sht-setting.php:61
+#: settings/user-data/user-gravatar-image-sht-setting.php:37
+#: settings/user-data/user-gravatar-image-sht-setting.php:61
+#: settings/build-your-account-page/login-form-sht-setting.php:39
+#: settings/build-your-account-page/login-form-sht-setting.php:63
+#: settings/build-your-account-page/logout-button-sht-setting.php:37
+#: settings/build-your-account-page/logout-button-sht-setting.php:61
+#: settings/build-your-account-page/downloads-list-sht-setting.php:37
+#: settings/build-your-account-page/downloads-list-sht-setting.php:61
+#: settings/build-your-account-page/dashboard-sht-setting.php:37
+#: settings/build-your-account-page/dashboard-sht-setting.php:61
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:37
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:61
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:37
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:61
+#: settings/build-your-account-page/edit-account-sht-setting.php:37
+#: settings/build-your-account-page/edit-account-sht-setting.php:61
+#: settings/build-your-account-page/payment-methods-sht-setting.php:38
+#: settings/build-your-account-page/payment-methods-sht-setting.php:62
+#: settings/build-your-account-page/orders-list-sht-setting.php:47
+#: settings/build-your-account-page/orders-list-sht-setting.php:68
+#: settings/build-your-account-page/display-wc-notices-setting.php:37
+#: settings/build-your-account-page/display-wc-notices-setting.php:61
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:37
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:61
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:37
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:61
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:37
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:61
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:37
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:61
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:40
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:69
+msgid "COUNTER:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:164
+msgid "Counters"
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:81
+#: settings/wc-additional-settings/conditional-menu-setting.php:107
+msgid "create a new menu"
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:119
+msgid "Custom redirections by role"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:14
+msgid "Custom terms and conditions checkbox in WooCommece checkout page"
+msgstr ""
+
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:55
+msgid "Custom thank you page for product one:"
+msgstr ""
+
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:147
+msgid "Custom thank you page for product three:"
+msgstr ""
+
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:101
+msgid "Custom thank you page for product two:"
+msgstr ""
+
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:14
+msgid "Custom thank you pages"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:118
+#: settings/user-data/user-gravatar-image-sht-setting.php:123
+#: settings/user-data/user-gravatar-image-sht-setting.php:127
+#: settings/build-your-account-page/edit-account-sht-setting.php:87
+#: settings/build-your-account-page/edit-account-sht-setting.php:92
+#: settings/build-your-account-page/edit-account-sht-setting.php:96
+msgid "Customer avatar uploader"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:14
+msgid "Customer purchased products counter"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-loop-setting.php:14
+msgid "Customer purchased products loop"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:14
+msgid "Customer reviews shortcode"
+msgstr ""
+
+#: settings/user-data/customer-total-orders-counter-setting.php:14
+msgid "Customer total orders counter"
+msgstr ""
+
+#: settings/user-data/customer-total-reviews-counter-setting.php:14
+msgid "Customer total reviews counter"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:77
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:75
+msgid "Customize the avatar"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:30
+msgid "Customize the badge style:"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:54
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:46
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:49
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:53
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:90
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:98
+msgid "Customize the box"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:102
+msgid "Customize the button"
+msgstr ""
+
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:26
+msgid "Customize the product image style"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:88
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:133
+msgid "Customize the title"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Customize your WooCommerce store with more than 60 functions and shortcodes, "
+"ranging from the important points of your store such as: Access, My account "
+"page, shop page, thank you pages among others, to additional content to "
+"reinforce: as content restriction, adaptation to the new law of data "
+"protection, security, advanced user data, messages according to the number "
+"of orders among many more advantages. This plugin not work alone, you need "
+"install WooCommerce before."
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:650
+msgid "Dashboard"
+msgstr ""
+
+#: settings/build-your-account-page/dashboard-sht-setting.php:14
+msgid "Dashboard shortcode"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:92
+#: settings/build-your-account-page/logout-button-sht-setting.php:87
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:82
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:95
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:108
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:41
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:80
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:103
+msgid "Dashed"
+msgstr ""
+
+#: settings/build-your-account-page/orders-list-sht-setting.php:107
+msgid "Disable custom WSHK View order template"
+msgstr ""
+
+#: settings/wc-additional-settings/disable-new-wc-dashboard-setting.php:14
+msgid "Disable the new WooCommerce dashboard"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:63
+#: settings/add-security-to-shop/security-headers-setting.php:65
+#: settings/add-security-to-shop/security-headers-setting.php:67
+#: settings/add-security-to-shop/security-headers-setting.php:69
+#: settings/add-security-to-shop/security-headers-setting.php:71
+#: settings/add-security-to-shop/security-headers-setting.php:73
+#: settings/add-security-to-shop/security-headers-setting.php:75
+msgid "DISABLED"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:14
+msgid "Display all the products reviews where you want"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:14
+msgid "Display max or min price on variable products"
+msgstr ""
+
+#: settings/user-data/username-in-menu-title-setting.php:91
+#: settings/user-data/username-sht-setting.php:87
+msgid "Display name"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:110
+msgid "Display only shortcode"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:62
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:78
+#: settings/user-data/username-in-menu-title-setting.php:77
+#: settings/user-data/user-role-sht-setting.php:77
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:162
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:94
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:152
+msgid "Display options"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:415
+msgid "Display Reviews"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:14
+msgid "Display saving price and percentages on sale products"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:102
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:122
+msgid "Display the badge with a shortcode"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:51
+msgid "Display the max price on variable products"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:53
+msgid "Display the min price on variable products"
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:14
+msgid "Display the user billing data separately"
+msgstr ""
+
+#: settings/user-data/display-user-orders-by-status-setting.php:14
+msgid "Display the user orders according to the status of the order"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:14
+msgid "Display the user shipping data separately"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:14
+msgid "Display the user total spent according to the order status"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:547
+msgid "Display user email"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:489
+msgid "Display user IP"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:518
+msgid "Display user name and surname"
+msgstr ""
+
+#: settings/build-your-account-page/display-wc-notices-setting.php:14
+msgid "Display WooCommerce notices"
+msgstr ""
+
+#: sections/contact-section.php:192
+msgid "Do you need help or have ideas to add?"
+msgstr ""
+
+#: sections/contact-section.php:207
+msgid "Do you want to check the new changes?"
+msgstr ""
+
+#: sections/contact-section.php:222
+msgid "DOCUMENTATION"
+msgstr ""
+
+#: settings/user-data/conditional-message-setting.php:82
+msgid "Dont have made orders yet"
+msgstr ""
+
+#: settings/build-your-account-page/orders-list-sht-setting.php:105
+msgid "Dont load custom WSHK view order template"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:92
+#: settings/build-your-account-page/logout-button-sht-setting.php:87
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:82
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:95
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:108
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:42
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:80
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:103
+msgid "Dotted"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:29
+msgid "Downloable products (condition)"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:33
+msgid "Downloable products (style control)"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:27
+msgid "Downloable products (text)"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:45
+msgid "Download"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:45
+msgid "downloadable"
+msgstr ""
+
+#: settings/customize-the-shop-page/conditional-add-to-cart-button.php:34
+msgid "Downloaded/Bought"
+msgstr ""
+
+#: functions/wshk-counters.php:630
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:27
+msgid "Downloads"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:256
+msgid "Downloads list"
+msgstr ""
+
+#: settings/build-your-account-page/downloads-list-sht-setting.php:14
+msgid "Downloads list shortcode"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:30
+msgid ""
+"Each field have a default value, so when you enable the function and save "
+"the settings, the badge will display the style by default."
+msgstr ""
+
+#: settings/user-data/customer-total-orders-counter-setting.php:73
+msgid ""
+"Each field shows an example of what to write, but by default it only will "
+"show the quantity of orders, you must complete the fields that will be "
+"displayed"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:73
+msgid ""
+"Each field shows an example of what to write, but by default it only will "
+"show the quantity of purchased products, you must complete the fields that "
+"will be displayed"
+msgstr ""
+
+#: settings/user-data/customer-total-reviews-counter-setting.php:72
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:72
+msgid ""
+"Each field shows an example of what to write, but by default it only will "
+"show the quantity of reviews, you must complete the fields that will be "
+"displayed"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:74
+msgid ""
+"Each field shows an example of what to write, but you must complete the "
+"fields for the image to be displayed"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:72
+msgid ""
+"Each field shows an example of what to write, but you must complete the "
+"fields for the Logout button to be displayed"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:73
+msgid ""
+"Each field shows an example of what to write, but you must complete the "
+"fields for the review products to be displayed"
+msgstr ""
+
+#: settings/user-data/username-sht-setting.php:75
+msgid ""
+"Each field shows an example of what to write, but you must complete the "
+"fields for the username to be displayed"
+msgstr ""
+
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:97
+#: settings/build-your-account-page/payment-methods-sht-setting.php:97
+#: settings/build-your-account-page/orders-list-sht-setting.php:139
+msgid "Easy My Account Builder"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:627
+msgid "Edit account form"
+msgstr ""
+
+#: settings/build-your-account-page/edit-account-sht-setting.php:14
+msgid "Edit account shortcode"
+msgstr ""
+
+#: woo-shortcodes-kit.php:189
+msgid "Enable & configure the functions."
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:101
+#: settings/user-data/customer-total-orders-counter-setting.php:100
+#: settings/user-data/customer-total-reviews-counter-setting.php:97
+msgid "Enable for view the shortcode result correctly"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:34
+#: settings/add-security-to-shop/security-headers-setting.php:36
+#: settings/add-security-to-shop/security-headers-setting.php:38
+#: settings/add-security-to-shop/security-headers-setting.php:40
+#: settings/add-security-to-shop/security-headers-setting.php:42
+#: settings/add-security-to-shop/security-headers-setting.php:44
+#: settings/add-security-to-shop/security-headers-setting.php:46
+msgid "ENABLED"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:34
+#: settings/add-security-to-shop/security-headers-setting.php:63
+msgid "Enforce the use of HTTPS"
+msgstr ""
+
+#: sections/contact-section.php:337
+msgid "Enhance your shop"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:23
+msgid "Enter the text you want to display under each product"
+msgstr ""
+
+#: settings/wc-additional-settings/limit-the-number-of-products-inthe-cart-setting.php:30
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:55
+msgid "Example"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:26
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:29
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:28
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:29
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:31
+msgid "Example: I have read and accept the privacy policy"
+msgstr ""
+
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:14
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:68
+msgid "Exclude products from specific categories on the shop page"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:14
+#: settings/user-data/display-user-billing-data-setting.php:14
+#: settings/user-data/display-user-shipping-data-setting.php:14
+#: settings/user-data/display-user-orders-by-status-setting.php:14
+msgid "Expand for see the functions and shortcodes"
+msgstr ""
+
+#: sections/recommends-section.php:129 sections/recommends-section.php:154
+#: sections/recommends-section.php:184 sections/recommends-section.php:208
+msgid "EXPLORE NOW"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:33
+msgid "external"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:46
+#: settings/add-security-to-shop/security-headers-setting.php:75
+msgid "Feature Policy"
+msgstr ""
+
+#: woo-shortcodes-kit.php:440
+msgid ""
+"Find in this section all the shortcodes and functions related to adapt your "
+"shop to respect the GDPR law"
+msgstr ""
+
+#: woo-shortcodes-kit.php:215
+msgid ""
+"Find in this section all the shortcodes and functions related to build your "
+"custom account page from scratch"
+msgstr ""
+
+#: woo-shortcodes-kit.php:380
+msgid ""
+"Find in this section all the shortcodes and functions related to customizing "
+"the store page or building a new one."
+msgstr ""
+
+#: woo-shortcodes-kit.php:269
+msgid ""
+"Find in this section all the shortcodes and functions related to display "
+"data about the user"
+msgstr ""
+
+#: woo-shortcodes-kit.php:341
+msgid ""
+"Find in this section all the shortcodes and functions related to enhance "
+"your website security"
+msgstr ""
+
+#: woo-shortcodes-kit.php:479
+msgid ""
+"Find in this section all the shortcodes and functions to enhance the "
+"WooCommerce possibilities"
+msgstr ""
+
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:29
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:30
+msgid "First Category:"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:106
+msgid "First choose the display options by clicking the checkbox"
+msgstr ""
+
+#: sections/contact-section.php:252
+msgid "Follow all the news!"
+msgstr ""
+
+#: sections/contact-section.php:285
+msgid "FOLLOW NOW!"
+msgstr ""
+
+#: sections/contact-section.php:255
+msgid "FOLLOW THE NEWS!"
+msgstr ""
+
+#: sections/contact-section.php:282
+msgid "Follow WSHK on Instagram!"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:53
+msgid "Font (size):"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:54
+msgid "Font (weight):"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:55
+msgid "Font color:"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:63
+msgid ""
+"For example: This user has read and accepted the privacy policy before "
+"performing this action on the web. The data provided by the user, are "
+"treated in accordance with the provisions of the privacy policy of this "
+"website. In case of disagreement, this email can be used as proof, to prove "
+"it."
+msgstr ""
+
+#: sections/recommends-section.php:25
+msgid ""
+"From here you can directly access each recommendation with just one click."
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:93
+#: settings/user-data/customer-total-orders-counter-setting.php:91
+#: settings/user-data/customer-total-reviews-counter-setting.php:90
+#: settings/user-data/username-sht-setting.php:75
+#: settings/build-your-account-page/logout-button-sht-setting.php:72
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:73
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:72
+msgid "Function and Style settings"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-loop-setting.php:72
+#: settings/user-data/conditional-message-setting.php:72
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:22
+msgid "Function settings"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:30
+#: settings/user-data/display-user-billing-data-setting.php:29
+#: settings/user-data/display-user-shipping-data-setting.php:29
+#: settings/user-data/display-user-orders-by-status-setting.php:29
+msgid "FUNCTIONS"
+msgstr ""
+
+#: woo-shortcodes-kit.php:180
+msgid "Functions and Shortcodes"
+msgstr ""
+
+#: woo-shortcodes-kit.php:438
+msgid "GDPR LAW"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:14
+msgid "GDPR on WooCommerce checkout page"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:14
+msgid "GDPR on WooCommerce Register Form"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:15
+msgid "GDPR on WooCommerce reviews"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:14
+msgid "GDPR on WordPress comments"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:124
+#: settings/user-data/customer-purchased-products-counter-setting.php:141
+#: settings/user-data/customer-total-orders-counter-setting.php:122
+#: settings/user-data/customer-total-orders-counter-setting.php:139
+msgid "Get data from specific number of days"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:20
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:20
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:20
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:20
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:23
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:21
+#: settings/add-security-to-shop/wp-no-send-users-setting.php:20
+#: settings/add-security-to-shop/security-headers-setting.php:20
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:20
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:20
+#: settings/add-security-to-shop/block-wpadmin-login-setting.php:20
+#: settings/add-security-to-shop/block-admintopbar-setting.php:20
+#: settings/user-data/customer-purchased-products-counter-setting.php:21
+#: settings/user-data/product-purchases-by-current-user-setting.php:20
+#: settings/user-data/display-user-total-spent-setting.php:20
+#: settings/user-data/customer-purchased-products-loop-setting.php:20
+#: settings/user-data/conditional-message-setting.php:20
+#: settings/user-data/username-in-menu-title-setting.php:22
+#: settings/user-data/user-ip-sht-setting.php:20
+#: settings/user-data/customer-total-orders-counter-setting.php:20
+#: settings/user-data/user-role-sht-setting.php:22
+#: settings/user-data/username-and-surname-sht-setting.php:20
+#: settings/user-data/customer-total-reviews-counter-setting.php:20
+#: settings/user-data/display-user-billing-data-setting.php:20
+#: settings/user-data/user-email-sht-setting.php:20
+#: settings/user-data/display-user-shipping-data-setting.php:20
+#: settings/user-data/username-sht-setting.php:20
+#: settings/user-data/display-user-orders-by-status-setting.php:20
+#: settings/user-data/user-gravatar-image-sht-setting.php:20
+#: settings/build-your-account-page/hide-login-errors-setting.php:20
+#: settings/build-your-account-page/login-form-sht-setting.php:20
+#: settings/build-your-account-page/logout-button-sht-setting.php:20
+#: settings/build-your-account-page/downloads-list-sht-setting.php:20
+#: settings/build-your-account-page/dashboard-sht-setting.php:20
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:20
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:20
+#: settings/build-your-account-page/edit-account-sht-setting.php:20
+#: settings/build-your-account-page/payment-methods-sht-setting.php:20
+#: settings/build-your-account-page/orders-list-sht-setting.php:29
+#: settings/build-your-account-page/display-wc-notices-setting.php:20
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:22
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:20
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:25
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:20
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:22
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:20
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:23
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:20
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:20
+#: settings/customize-the-shop-page/conditional-add-to-cart-button.php:27
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:21
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:21
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:20
+#: settings/wc-additional-settings/limit-the-number-of-products-inthe-cart-setting.php:23
+#: settings/wc-additional-settings/product-thumbnail-in-email-order-setting.php:25
+#: settings/wc-additional-settings/skip-cart-and-goto-checkout-setting.php:23
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:20
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:23
+#: settings/wc-additional-settings/autocomplete-virtual-orders-setting.php:20
+#: settings/wc-additional-settings/add-name-and-surname-fields-wc-register-form-setting.php:23
+#: settings/wc-additional-settings/conditional-menu-setting.php:25
+#: settings/wc-additional-settings/shortcodes-in-menu-titles-setting.php:21
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:20
+#: settings/wc-additional-settings/disable-new-wc-dashboard-setting.php:20
+msgid "Get help!"
+msgstr ""
+
+#: sections/recommends-section.php:20
+msgid "Get to know the plugins recommended by WSHK"
+msgstr ""
+
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:174
+msgid "Global custom thank you page or for the rest of products:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:211
+msgid "Global sales"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:14
+msgid "Global settings"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:300
+msgid "Gravatar image"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:82
+msgid "Gravatar shadow:"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:80
+msgid "Gravatar size:"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:35
+msgid "grouped"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:32
+#: settings/add-security-to-shop/security-headers-setting.php:61
+msgid "HEADERS"
+msgstr ""
+
+#: settings/user-data/username-sht-setting.php:83
+msgid "Hello"
+msgstr ""
+
+#: sections/contact-section.php:21
+msgid "Help & Support!"
+msgstr ""
+
+#: sections/contact-section.php:267
+msgid "Help WSHK keep growing!"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:235
+msgid "here the category ID number"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:72
+msgid "Here write the category ID number"
+msgstr ""
+
+#: settings/user-data/product-purchases-by-current-user-setting.php:72
+msgid "Here write the product ID number"
+msgstr ""
+
+#: sections/news-section.php:27
+msgid "Here you will find info about news, updates, changes and more!."
+msgstr ""
+
+#: sections/recommends-section.php:29
+msgid "Here you will find WSHK plugins and third party plugins!"
+msgstr ""
+
+#: settings/user-data/conditional-message-setting.php:75
+#: settings/user-data/conditional-message-setting.php:76
+#, php-format
+msgid ""
+"Hi %1$s!<br />To reward your activity in our shop with %2$s orders, we want "
+"give to you a 50%% discount for your next order!! \n"
+"<br />Enter this coupon code in your next order: WSHK50TST"
+msgstr ""
+
+#: settings/wshk-settings-page.php:486
+msgid "Hide Advanced Options"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:742
+msgid "Hide content"
+msgstr ""
+
+#: settings/build-your-account-page/hide-login-errors-setting.php:14
+msgid "Hide login errors in the login form"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:63
+msgid "Hide Privacy policy checkbox for logged in users"
+msgstr ""
+
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:156
+msgid "Hide products of non selected categories in category page."
+msgstr ""
+
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:166
+msgid "Hide products of selected categories in category page."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:79
+msgid "Hide Terms and conditions checkbox for logged in users"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:93
+msgid "Hide the by default on sale badge"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:17
+msgid "Hover the elements to see the shortcodes."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:20
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:20
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:20
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:20
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:23
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:21
+#: settings/add-security-to-shop/wp-no-send-users-setting.php:20
+#: settings/add-security-to-shop/security-headers-setting.php:20
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:20
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:20
+#: settings/add-security-to-shop/block-wpadmin-login-setting.php:20
+#: settings/add-security-to-shop/block-admintopbar-setting.php:20
+#: settings/user-data/customer-purchased-products-counter-setting.php:21
+#: settings/user-data/product-purchases-by-current-user-setting.php:20
+#: settings/user-data/display-user-total-spent-setting.php:20
+#: settings/user-data/customer-purchased-products-loop-setting.php:20
+#: settings/user-data/conditional-message-setting.php:20
+#: settings/user-data/username-in-menu-title-setting.php:22
+#: settings/user-data/user-ip-sht-setting.php:20
+#: settings/user-data/customer-total-orders-counter-setting.php:20
+#: settings/user-data/user-role-sht-setting.php:22
+#: settings/user-data/username-and-surname-sht-setting.php:20
+#: settings/user-data/customer-total-reviews-counter-setting.php:20
+#: settings/user-data/display-user-billing-data-setting.php:20
+#: settings/user-data/user-email-sht-setting.php:20
+#: settings/user-data/display-user-shipping-data-setting.php:20
+#: settings/user-data/username-sht-setting.php:20
+#: settings/user-data/display-user-orders-by-status-setting.php:20
+#: settings/user-data/user-gravatar-image-sht-setting.php:20
+#: settings/build-your-account-page/hide-login-errors-setting.php:20
+#: settings/build-your-account-page/login-form-sht-setting.php:20
+#: settings/build-your-account-page/logout-button-sht-setting.php:20
+#: settings/build-your-account-page/downloads-list-sht-setting.php:20
+#: settings/build-your-account-page/dashboard-sht-setting.php:20
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:20
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:20
+#: settings/build-your-account-page/edit-account-sht-setting.php:20
+#: settings/build-your-account-page/payment-methods-sht-setting.php:20
+#: settings/build-your-account-page/orders-list-sht-setting.php:27
+#: settings/build-your-account-page/display-wc-notices-setting.php:20
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:22
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:20
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:25
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:20
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:22
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:20
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:23
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:20
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:20
+#: settings/customize-the-shop-page/conditional-add-to-cart-button.php:27
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:21
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:21
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:20
+#: settings/wc-additional-settings/limit-the-number-of-products-inthe-cart-setting.php:23
+#: settings/wc-additional-settings/product-thumbnail-in-email-order-setting.php:25
+#: settings/wc-additional-settings/skip-cart-and-goto-checkout-setting.php:23
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:20
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:23
+#: settings/wc-additional-settings/autocomplete-virtual-orders-setting.php:20
+#: settings/wc-additional-settings/add-name-and-surname-fields-wc-register-form-setting.php:23
+#: settings/wc-additional-settings/conditional-menu-setting.php:25
+#: settings/wc-additional-settings/shortcodes-in-menu-titles-setting.php:21
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:20
+#: settings/wc-additional-settings/disable-new-wc-dashboard-setting.php:20
+msgid "How does it work? "
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:150
+msgid "How many columns want display?:"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:119
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:147
+msgid "How many reviews want display?"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://disespubli.com/"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:39
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:68
+msgid "ICON:"
+msgstr ""
+
+#: sections/languages-section.php:17
+msgid ""
+"If in a new version the plugin does not translate all the strings correctly, "
+"you only need to click on the update button and the files will be copied "
+"automatically."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:35
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:33
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:34
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:37
+msgid "If the field is empty will display the by default Privacy Policy text"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:698
+msgid ""
+"If you are building your custom my account page and want display the Login "
+"form for non logged in users, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:721
+msgid ""
+"If you are building your custom my account page or want hide any content for "
+"non logged in users, use this Shortcode:"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:102
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:122
+msgid ""
+"If you are building your custom product pages, for example with Elementor, "
+"you can display the on sale badge with the savings prices and percentages by "
+"adding a shortcode."
+msgstr ""
+
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:36
+msgid ""
+"If you are using DIVI and the function is not working, go to: Divi Theme "
+"Options > General > Number of Products displayed on WooCommerce archive "
+"pages to configure it."
+msgstr ""
+
+#: settings/build-your-account-page/display-wc-notices-setting.php:72
+msgid ""
+"If you are using Woo Subscriptions, you can do its notices compatibles with "
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:767
+msgid "If you display how much was spended by a client, use this Shortcode:"
+msgstr ""
+
+#: settings/wc-additional-settings/disable-new-wc-dashboard-setting.php:24
+msgid ""
+"If you dont need the features introduced in WooCommerce 4.0 just activate "
+"this function and forget about them or activate again when you need it."
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:27
+msgid ""
+"If you dont need to modify the text for some type of product, the default "
+"text will be displayed."
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:27
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:56
+msgid "If you have not completed the field, a default text will be displayed"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:127
+#: settings/user-data/customer-total-orders-counter-setting.php:125
+msgid "If you leave the field empty, the data will be of the last 365 days."
+msgstr ""
+
+#: sections/contact-section.php:30
+msgid "If you need help related to the plugin, you can use the contact form"
+msgstr ""
+
+#: settings/wc-additional-settings/limit-the-number-of-products-inthe-cart-setting.php:30
+msgid ""
+"If you set that only 2 products can be added to the cart and a customer adds "
+"3 products, only the third product added will be shown in the cart. Since it "
+"had 2 products added, which is the maximum established and has added one "
+"more, it causes the cart to restart and pass to have only the product that "
+"was added as a third product."
+msgstr ""
+
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:68
+msgid ""
+"If you use this function, some of the previous functions will no longer be "
+"useful."
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:583
+msgid ""
+"If you want display the customer billing & shipping address in any post or "
+"page, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:629
+msgid ""
+"If you want display the customer edit account form in any post or page, use "
+"this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:606
+msgid ""
+"If you want display the customer payment methods saved in any post or page, "
+"use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:675
+msgid ""
+"If you want display the Logout button in any post or page, use this "
+"Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:652
+msgid ""
+"If you want display the my-account dashboard in any post or page, use this "
+"Shortcode:"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:72
+msgid "if you want exclude any category from the total count use"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:235
+msgid "if you want exclude any category use:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:744
+msgid ""
+"If you want hide any content for logged in users and display only for non "
+"logged in users, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:464
+msgid ""
+"If you want show a message if the user made a number of orders, use this "
+"Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:213
+msgid "If you want show the global sales/downloads counter use this shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:393
+msgid ""
+"If you want show the products reviews made by a user, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:417
+msgid ""
+"If you want show the products reviews made by all the users, use this "
+"Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:324
+msgid "If you want show the total bought products by user, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:347
+msgid "If you want show the total orders made by user, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:235
+msgid ""
+"If you want show the total products on any page or post, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:370
+msgid "If you want show the total reviews made by a user, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:549
+msgid "If you want show the user email where you want, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:302
+msgid "If you want show the user Gravatar image, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:491
+msgid "If you want show the user ip where you want, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:520
+msgid "If you want show the user name and surname, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:441
+msgid "If you want show the username in any page or post, use this shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:258
+msgid "If you want show user the downloads table, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:280
+msgid ""
+"If you want show user the products that have bought, use this Shortcode:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:190
+msgid "If you want show user the purchase my-orders table, use this Shortcode:"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:54
+msgid ""
+"If your test result follow in red, please close the test and wait 30-60 "
+"seconds before to check your site again"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:101
+#: settings/user-data/customer-total-orders-counter-setting.php:100
+#: settings/user-data/customer-total-reviews-counter-setting.php:97
+msgid "Im fine and view the shortcode result correctly"
+msgstr ""
+
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:33
+msgid "Image border (color):"
+msgstr ""
+
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:35
+msgid "Image border (radius):"
+msgstr ""
+
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:29
+msgid "Image border (size):"
+msgstr ""
+
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:31
+msgid "Image border (type):"
+msgstr ""
+
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:27
+msgid "Image size:"
+msgstr ""
+
+#: settings/build-your-account-page/display-wc-notices-setting.php:72
+msgid "Important recommendation"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:96
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:105
+msgid "Increase the total shop products counter"
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:51
+msgid ""
+"Indicates which menu each user will see, according to the status of their "
+"session"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:37
+msgid ""
+"Information regarding the data that you provide when leaving your comments, "
+"orders and reviews.\n"
+"-responsable\n"
+"-purpose\n"
+"-legitimation\n"
+"-recipients\n"
+"-rights \n"
+"\n"
+"You can write all of you want"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:42
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:40
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:44
+msgid ""
+"Information regarding the data that you provide when leaving your comments, "
+"orders and reviews.\n"
+"-responsable\n"
+"-purpose\n"
+"-legitimation\n"
+"-recipients\n"
+"-rights \n"
+"\n"
+"You can write all of you want."
+msgstr ""
+
+#: sections/contact-section.php:282
+msgid "INSTANEWS"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:29
+msgid "It also works with variable products on sale!"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:28
+msgid "It works with all products types, variable products included."
+msgstr ""
+
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:14
+msgid "Just need activate and customize the style!"
+msgstr ""
+
+#: settings/wc-additional-settings/disable-new-wc-dashboard-setting.php:14
+msgid "Just need activate and nothing more!"
+msgstr ""
+
+#: settings/user-data/username-in-menu-title-setting.php:15
+msgid "Just need activate and paste the shortcode in your menu item title!"
+msgstr ""
+
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:14
+msgid "Just need activate the function and add your custom shop page slug!"
+msgstr ""
+
+#: settings/user-data/product-purchases-by-current-user-setting.php:14
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:14
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:14
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:14
+msgid ""
+"Just need activate the function and copy the shortcode on any page or post!"
+msgstr ""
+
+#: settings/add-security-to-shop/wp-no-send-users-setting.php:14
+#: settings/add-security-to-shop/security-headers-setting.php:14
+#: settings/add-security-to-shop/block-wpadmin-login-setting.php:14
+#: settings/add-security-to-shop/block-admintopbar-setting.php:14
+#: settings/wc-additional-settings/autocomplete-virtual-orders-setting.php:14
+#: settings/wc-additional-settings/shortcodes-in-menu-titles-setting.php:15
+msgid "Just need activate the function and nothing more!"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:14
+msgid "Just need activate the function and use the off content shortcode!"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:14
+msgid "Just need activate the function and use the restrict content shortcode!"
+msgstr ""
+
+#: settings/user-data/user-role-sht-setting.php:15
+msgid "Just need activate, configure the setting and paste the shortcode!"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:130
+#: settings/user-data/customer-total-orders-counter-setting.php:128
+#: settings/user-data/customer-total-reviews-counter-setting.php:119
+msgid "Just need check this option and the counter will be animated."
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:159
+msgid ""
+"Just need copy this shortcode, and paste whatever you want. Can control the "
+"number of reviews to display from the shortcode replacing the number value"
+msgstr ""
+
+#: settings/user-data/user-ip-sht-setting.php:14
+#: settings/user-data/username-and-surname-sht-setting.php:14
+#: settings/user-data/user-email-sht-setting.php:14
+#: settings/build-your-account-page/downloads-list-sht-setting.php:14
+#: settings/build-your-account-page/dashboard-sht-setting.php:14
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:14
+#: settings/build-your-account-page/edit-account-sht-setting.php:14
+#: settings/build-your-account-page/payment-methods-sht-setting.php:14
+msgid ""
+"Just need enable the function and copy the shortcode in your custom account "
+"page!"
+msgstr ""
+
+#: woo-shortcodes-kit.php:185
+msgid ""
+"Just need make a click in each section to view the functions and shortcodes."
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:90
+msgid ""
+"Just need to use the following shortcode and replace the PRODUCT ID HERE "
+"with the product ID number."
+msgstr ""
+
+#: settings/build-your-account-page/orders-list-sht-setting.php:105
+msgid ""
+"Just turn it on if you have any compatibility issues loading this template."
+msgstr ""
+
+#: sections/languages-section.php:165 sections/languages-section.php:251
+msgid "LANGUAGE"
+msgstr ""
+
+#: woo-shortcodes-kit.php:149
+msgid "Languages"
+msgstr ""
+
+#: sections/contact-section.php:222
+msgid "Learn all about how WSHK works!"
+msgstr ""
+
+#: sections/contact-section.php:326
+msgid "Learn how work"
+msgstr ""
+
+#: woo-shortcodes-kit.php:83 woo-shortcodes-kit.php:84
+msgid "Learn how work all the functions"
+msgstr ""
+
+#: sections/contact-section.php:26
+msgid ""
+"Learn more about Woo Shortcodes Kit and how to customize your WooCommerce "
+"store!"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:96
+#: settings/user-data/customer-total-orders-counter-setting.php:94
+#: settings/user-data/customer-total-reviews-counter-setting.php:93
+#: settings/user-data/username-sht-setting.php:98
+#: settings/build-your-account-page/logout-button-sht-setting.php:97
+msgid "Left"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:141
+#: settings/user-data/customer-purchased-products-counter-setting.php:144
+#: settings/user-data/customer-total-orders-counter-setting.php:139
+#: settings/user-data/customer-total-orders-counter-setting.php:142
+#: settings/user-data/customer-total-reviews-counter-setting.php:131
+#: settings/user-data/user-gravatar-image-sht-setting.php:123
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:92
+#: settings/build-your-account-page/edit-account-sht-setting.php:92
+#: settings/build-your-account-page/payment-methods-sht-setting.php:93
+#: settings/build-your-account-page/orders-list-sht-setting.php:135
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:97
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:105
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:122
+msgid "License key"
+msgstr ""
+
+#: settings/wc-additional-settings/limit-the-number-of-products-inthe-cart-setting.php:14
+msgid "Limit the number of products in the cart"
+msgstr ""
+
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:87
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:92
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:97
+#: settings/build-your-account-page/payment-methods-sht-setting.php:88
+#: settings/build-your-account-page/payment-methods-sht-setting.php:93
+#: settings/build-your-account-page/payment-methods-sht-setting.php:97
+#: settings/build-your-account-page/orders-list-sht-setting.php:130
+#: settings/build-your-account-page/orders-list-sht-setting.php:135
+#: settings/build-your-account-page/orders-list-sht-setting.php:139
+msgid "Link the function with his account container"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:696
+msgid "Login form"
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:14
+msgid "Login form shortcode"
+msgstr ""
+
+#: settings/user-data/username-in-menu-title-setting.php:87
+#: settings/user-data/username-sht-setting.php:87
+msgid "Login user"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:93
+msgid "Logout"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:673
+msgid "Logout button"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:14
+msgid "Logout button shortcode"
+msgstr ""
+
+#: settings/user-data/user-role-sht-setting.php:87
+msgid "Main user role"
+msgstr ""
+
+#: functions/wshk-build-myaccount-page.php:988
+#: functions/wshk-build-myaccount-page.php:1006
+msgid "Make your first review"
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:34
+msgid "Menu locations detected: "
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:53
+msgid "Menus detected: "
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:462
+msgid "Message by Orders"
+msgstr ""
+
+#: settings/user-data/conditional-message-setting.php:75
+msgid "Message template"
+msgstr ""
+
+#: settings/user-data/conditional-message-setting.php:76
+msgid "Message text:"
+msgstr ""
+
+#: sections/contact-section.php:315
+msgid "Modding WooCommerce"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:14
+#: settings/user-data/display-user-orders-by-status-setting.php:14
+msgid "MOVED"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:753
+#: sections/old-shortcodes-grid-section.php:760
+#: settings/add-security-to-shop/wp-no-send-users-setting.php:14
+#: settings/user-data/customer-purchased-products-counter-setting.php:134
+#: settings/user-data/product-purchases-by-current-user-setting.php:14
+#: settings/user-data/customer-total-orders-counter-setting.php:132
+#: settings/user-data/user-role-sht-setting.php:15
+#: settings/user-data/customer-total-reviews-counter-setting.php:123
+#: settings/user-data/display-user-billing-data-setting.php:37
+#: settings/user-data/display-user-shipping-data-setting.php:37
+#: settings/build-your-account-page/hide-login-errors-setting.php:14
+#: settings/build-your-account-page/display-wc-notices-setting.php:14
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:14
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:14
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:109
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:110
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:14
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:100
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:102
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:14
+#: settings/wc-additional-settings/skip-cart-and-goto-checkout-setting.php:14
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:14
+#: settings/wc-additional-settings/add-name-and-surname-fields-wc-register-form-setting.php:14
+#: settings/wc-additional-settings/disable-new-wc-dashboard-setting.php:14
+msgid "NEW"
+msgstr ""
+
+#: functions/wshk-adapt-to-gdpr.php:597
+msgid "New Customer Registration"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:786
+msgid "New functions will be added in the nexts updates"
+msgstr ""
+
+#: sections/contact-section.php:299
+msgid "NEW TUTORIALS COMMING SOON!"
+msgstr ""
+
+#: sections/news-section.php:244
+msgid "NEW UPDATE FOR EASY MY ACCOUNT BUILDER - V.1.0.9 "
+msgstr ""
+
+#: sections/news-section.php:217
+msgid "NEW UPDATE FOR WSHK PRO - V.1.1.9 "
+msgstr ""
+
+#: woo-shortcodes-kit.php:146
+msgid "News"
+msgstr ""
+
+#: sections/languages-section.php:181 sections/languages-section.php:200
+#: sections/languages-section.php:230
+msgid "No available options"
+msgstr ""
+
+#: functions/wshk-build-myaccount-page.php:986
+#: functions/wshk-build-myaccount-page.php:1004
+msgid "No reviews has been made yet."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:33
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:43
+#: settings/add-security-to-shop/block-wpadmin-login-setting.php:27
+#: settings/user-data/user-gravatar-image-sht-setting.php:92
+#: settings/build-your-account-page/login-form-sht-setting.php:86
+#: settings/build-your-account-page/logout-button-sht-setting.php:87
+#: settings/build-your-account-page/logout-button-sht-setting.php:114
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:82
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:95
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:108
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:33
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:76
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:118
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:43
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:36
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:80
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:103
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:32
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:72
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:112
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:32
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:57
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:78
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:103
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:124
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:149
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:176
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:34
+#: settings/wc-additional-settings/conditional-menu-setting.php:38
+#: settings/wc-additional-settings/conditional-menu-setting.php:62
+#: settings/wc-additional-settings/conditional-menu-setting.php:92
+msgid "None"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:94
+msgid "none"
+msgstr ""
+
+#: sections/languages-section.php:17
+msgid ""
+"Now you can easily copy or update the ready language files, with just one "
+"click."
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:74
+msgid "Now you can exclude up to 3 differents categories, for example"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:156
+msgid ""
+"Now you can use the shortcode in differents pages and display a different "
+"number of reviews in each one"
+msgstr ""
+
+#: settings/build-your-account-page/orders-list-sht-setting.php:92
+msgid "Number of orders"
+msgstr ""
+
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:31
+msgid "Number of products per page in products categories pages:"
+msgstr ""
+
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:28
+msgid "Number of products per page in shop page:"
+msgstr ""
+
+#: functions/wshk-additional-shortcodes.php:346
+msgid "on"
+msgstr ""
+
+#: settings/wc-additional-settings/shortcodes-in-menu-titles-setting.php:23
+msgid ""
+"Once the function is activated, you can add a shortcode in each menu item "
+"title."
+msgstr ""
+
+#: settings/user-data/username-in-menu-title-setting.php:89
+#: settings/user-data/username-sht-setting.php:87
+msgid "Only the name"
+msgstr ""
+
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:97
+#: settings/build-your-account-page/payment-methods-sht-setting.php:97
+#: settings/build-your-account-page/orders-list-sht-setting.php:139
+msgid "or the premium addon"
+msgstr ""
+
+#: settings/user-data/customer-total-orders-counter-setting.php:79
+msgid "order"
+msgstr ""
+
+#: settings/user-data/customer-total-orders-counter-setting.php:82
+msgid "orders"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:188
+msgid "Orders list"
+msgstr ""
+
+#: settings/build-your-account-page/orders-list-sht-setting.php:15
+msgid "Orders list shortcode"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:57
+msgid "Padding:"
+msgstr ""
+
+#: settings/build-your-account-page/payment-methods-sht-setting.php:14
+msgid "Payment methods shortcode"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:604
+msgid "Payments methods"
+msgstr ""
+
+#: sections/recommends-section.php:205
+msgid ""
+"PeachPay for WooCommerce brings one-click checkout to your WooCommerce store."
+" An “Express checkout” button is added to your product and cart pages. After "
+"clicking the button, there is a simple form that a customer only sees once. "
+"It saves the customer’s information so that they never have to fill in their "
+"information on your site or any other site using PeachPay again."
+msgstr ""
+
+#: woo-shortcodes-kit.php:82 woo-shortcodes-kit.php:84
+msgid "Please rate the plugin"
+msgstr ""
+
+#: sections/languages-section.php:161
+msgid "Plugin files"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:114
+msgid "Points and link (...Read More)"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:114
+msgid "Points only (...)"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:74
+msgid "Prefix for max price on variable products"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:70
+msgid "Prefix for min price on variable products"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:36
+#: settings/add-security-to-shop/security-headers-setting.php:65
+msgid "Prevent Clickjacking"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:42
+#: settings/add-security-to-shop/security-headers-setting.php:71
+msgid "Prevent MIME-Type Sniffing"
+msgstr ""
+
+#: settings/add-security-to-shop/wp-no-send-users-setting.php:14
+msgid "Prevent send users on WP updates check"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:38
+#: settings/add-security-to-shop/security-headers-setting.php:67
+msgid "Prevent XSS Attack"
+msgstr ""
+
+#: functions/wshk-adapt-to-gdpr.php:64 functions/wshk-adapt-to-gdpr.php:198
+#: functions/wshk-adapt-to-gdpr.php:419 functions/wshk-adapt-to-gdpr.php:519
+msgid "Privacy Policy"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:80
+msgid "product"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:14
+msgid "Product Download/Sales Counter"
+msgstr ""
+
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:14
+msgid "Product image in the order details"
+msgstr ""
+
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:30
+msgid "Product one:"
+msgstr ""
+
+#: settings/user-data/product-purchases-by-current-user-setting.php:14
+msgid "Product purchases by current logged in user counter"
+msgstr ""
+
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:122
+msgid "Product three:"
+msgstr ""
+
+#: settings/wc-additional-settings/product-thumbnail-in-email-order-setting.php:15
+msgid "Product thumbnail in email orders"
+msgstr ""
+
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:76
+msgid "Product two:"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:83
+msgid "products"
+msgstr ""
+
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:15
+msgid "Products per page Manager"
+msgstr ""
+
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:68
+msgid "Products per page manager"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:33
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:35
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:41
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:43
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:45
+msgid "products:"
+msgstr ""
+
+#: functions/wshk-additional-shortcodes.php:345
+msgid "Published by"
+msgstr ""
+
+#: woo-shortcodes-kit.php:128
+msgid "Queries in"
+msgstr ""
+
+#: sections/contact-section.php:267
+msgid "RATE IT!"
+msgstr ""
+
+#: sections/news-section.php:204 sections/news-section.php:232
+#: sections/news-section.php:259
+msgid "Read More"
+msgstr ""
+
+#: functions/wshk-additional-shortcodes.php:193
+msgid "Read more"
+msgstr ""
+
+#: woo-shortcodes-kit.php:152
+msgid "Recommended"
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:112
+msgid "Redirect the user to the previously visited page"
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:110
+msgid "Redirect to previous visited page"
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:121
+msgid "Redirection for Admin role"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:44
+#: settings/add-security-to-shop/security-headers-setting.php:73
+msgid "Referrer Policy"
+msgstr ""
+
+#: functions/wshk-adapt-to-gdpr.php:606
+#, php-format
+msgid ""
+"Rejoice someone loves us! \n"
+"        A new customer %1$s %2$s with the email %3$s has registered.\n"
+"        \n"
+"        "
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:90
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:69
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:59
+#: settings/wc-additional-settings/skip-cart-and-goto-checkout-setting.php:26
+#: settings/wc-additional-settings/add-name-and-surname-fields-wc-register-form-setting.php:31
+msgid "Remember go to "
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:117
+msgid "Remember Save the changes!"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:35
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:33
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:34
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:37
+msgid "Replace the Privacy Policy link text:"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:166
+msgid "Required function Activation"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:719
+msgid "Restrict content"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:14
+msgid "Restrict content to users if they are logged in"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:14
+msgid "Restrict content to users if they are not logged in"
+msgstr ""
+
+#: settings/user-data/customer-total-reviews-counter-setting.php:78
+msgid "review"
+msgstr ""
+
+#: settings/user-data/customer-total-reviews-counter-setting.php:81
+msgid "reviews"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:391
+msgid "Reviews by user"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:96
+#: settings/user-data/customer-total-orders-counter-setting.php:94
+#: settings/user-data/customer-total-reviews-counter-setting.php:93
+#: settings/user-data/username-sht-setting.php:98
+#: settings/build-your-account-page/logout-button-sht-setting.php:97
+msgid "Right"
+msgstr ""
+
+#: sections/languages-section.php:167 sections/languages-section.php:252
+msgid "ROOT"
+msgstr ""
+
+#: functions/wshk-counters.php:651
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:56
+msgid "Sales"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:58
+msgid "Sales products (condition)"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:62
+msgid "Sales products (style control)"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:56
+msgid "Sales products (text)"
+msgstr ""
+
+#: woo-shortcodes-kit.php:560 woo-shortcodes-kit.php:564
+#: woo-shortcodes-kit.php:564
+msgid "SAVE SETTINGS"
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:118
+msgid "save the settings"
+msgstr ""
+
+#: functions/wshk-wc-additional-settings.php:437
+msgid "Save up to:"
+msgstr ""
+
+#: functions/wshk-wc-additional-settings.php:440
+#: functions/wshk-wc-additional-settings.php:449
+msgid "Save:"
+msgstr ""
+
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:72
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:70
+msgid "Second Category:"
+msgstr ""
+
+#: woo-shortcodes-kit.php:128
+msgid "seconds"
+msgstr ""
+
+#: woo-shortcodes-kit.php:339
+msgid "SECURITY"
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:54
+#: settings/add-security-to-shop/security-headers-setting.php:83
+msgid "SECURITY HEADERS SCAN"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:43
+msgid "Select options"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:48
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:58
+#: settings/add-security-to-shop/block-wpadmin-login-setting.php:43
+#: settings/build-your-account-page/login-form-sht-setting.php:106
+#: settings/build-your-account-page/logout-button-sht-setting.php:134
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:66
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:109
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:151
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:56
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:65
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:105
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:144
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:53
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:72
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:99
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:118
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:145
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:164
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:191
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:50
+#: settings/wc-additional-settings/conditional-menu-setting.php:45
+#: settings/wc-additional-settings/conditional-menu-setting.php:73
+#: settings/wc-additional-settings/conditional-menu-setting.php:103
+msgid "Selected: "
+msgstr ""
+
+#: sections/contact-section.php:195
+msgid "SEND A MESSAGE!"
+msgstr ""
+
+#: settings/user-data/conditional-message-setting.php:84
+msgid "Set the custom text to display if the customer have more orders:"
+msgstr ""
+
+#: settings/user-data/conditional-message-setting.php:82
+msgid ""
+"Set the custom text to display if the customer not have orders made yet:"
+msgstr ""
+
+#: settings/user-data/conditional-message-setting.php:80
+msgid "Set the number of orders to display the message:"
+msgstr ""
+
+#: settings/wc-additional-settings/limit-the-number-of-products-inthe-cart-setting.php:28
+msgid "Set the numbers of products allowed to add in the cart:"
+msgstr ""
+
+#: settings/build-your-account-page/orders-list-sht-setting.php:88
+msgid "Set the orders to display"
+msgstr ""
+
+#: settings/wc-additional-settings/product-thumbnail-in-email-order-setting.php:30
+msgid "Set the size for the product thumbnail:"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:57
+msgid "Set your custom error text:"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:55
+msgid "Set your custom link text:"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:29
+msgid ""
+"Set your custom privacy policy page:\n"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:42
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:37
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:40
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:44
+msgid "Set your legal summary text on user information:"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:63
+msgid "Set your verification message:"
+msgstr ""
+
+#: woo-shortcodes-kit.php:81 woo-shortcodes-kit.php:84
+#: woo-shortcodes-kit.php:143
+msgid "Settings"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:36
+msgid "Shipping user address"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:37
+msgid "Shipping user address 2"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:39
+msgid "Shipping user city"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:46
+msgid "Shipping user company"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:42
+msgid "Shipping user country code"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:43
+msgid "Shipping user country name"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:45
+msgid "Shipping user email"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:33
+msgid "Shipping user ID"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:35
+msgid "Shipping user lastname"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:34
+msgid "Shipping user name"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:44
+msgid "Shipping user phone"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:38
+msgid "Shipping user post code"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:40
+msgid "Shipping user state code"
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:41
+msgid "Shipping user state name"
+msgstr ""
+
+#: woo-shortcodes-kit.php:378
+msgid "SHOP PAGE"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:89
+msgid "Shortcode"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:31
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:31
+#: settings/user-data/customer-purchased-products-counter-setting.php:32
+#: settings/user-data/product-purchases-by-current-user-setting.php:31
+#: settings/user-data/customer-purchased-products-loop-setting.php:31
+#: settings/user-data/conditional-message-setting.php:31
+#: settings/user-data/username-in-menu-title-setting.php:34
+#: settings/user-data/user-ip-sht-setting.php:31
+#: settings/user-data/customer-total-orders-counter-setting.php:32
+#: settings/user-data/user-role-sht-setting.php:34
+#: settings/user-data/username-and-surname-sht-setting.php:31
+#: settings/user-data/customer-total-reviews-counter-setting.php:31
+#: settings/user-data/user-email-sht-setting.php:31
+#: settings/user-data/username-sht-setting.php:31
+#: settings/user-data/user-gravatar-image-sht-setting.php:31
+#: settings/build-your-account-page/login-form-sht-setting.php:33
+#: settings/build-your-account-page/logout-button-sht-setting.php:31
+#: settings/build-your-account-page/downloads-list-sht-setting.php:31
+#: settings/build-your-account-page/dashboard-sht-setting.php:31
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:31
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:31
+#: settings/build-your-account-page/edit-account-sht-setting.php:31
+#: settings/build-your-account-page/payment-methods-sht-setting.php:32
+#: settings/build-your-account-page/orders-list-sht-setting.php:41
+#: settings/build-your-account-page/display-wc-notices-setting.php:31
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:31
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:31
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:31
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:31
+msgid "Shortcode:"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:31
+#: settings/user-data/display-user-billing-data-setting.php:30
+#: settings/user-data/display-user-shipping-data-setting.php:30
+#: settings/user-data/display-user-orders-by-status-setting.php:30
+msgid "SHORTCODES"
+msgstr ""
+
+#: settings/wc-additional-settings/shortcodes-in-menu-titles-setting.php:15
+msgid "Shortcodes in menu titles"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:16
+msgid "Shortcodes Panel"
+msgstr ""
+
+#: settings/wshk-settings-page.php:477
+msgid "Show Advanced Options"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:162
+msgid "Show all"
+msgstr ""
+
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:68
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:15
+msgid "Show only products from specific categories on the shop page"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:94
+msgid "Show the by default on sale badge"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:41
+msgid "simple"
+msgstr ""
+
+#: settings/add-security-to-shop/wp-no-send-users-setting.php:22
+msgid ""
+"Since 2010, every time WordPress checks for updates, it sends the number of "
+"users of your website."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:67
+msgid ""
+"Since version 1.9.3 this function allows to verify acceptance of the website "
+"Privacy Policy and can be consulted from the order page that the user has "
+"made. It is not necessary to carry out any additional configuration, once "
+"you have activated this function, each time the user places an order by "
+"checking the acceptance box of the Privacy Policy, a verification message "
+"will be seen on the order page."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:80
+msgid ""
+"Since version 1.9.3 this function allows to verify the acceptance of the "
+"terms and conditions of the website and can be consulted from the order page "
+"that the user has made. It is not necessary to carry out any additional "
+"configuration, once you have activated this function, each time the user "
+"places an order by checking the acceptance box of the Terms and Conditions, "
+"a verification message will be seen on the order page."
+msgstr ""
+
+#: settings/wc-additional-settings/disable-new-wc-dashboard-setting.php:22
+msgid ""
+"Since WooCommerce 4.0 it add to your site a new features like a notification "
+"bar, new reports view (Analytics) and a new dashboard."
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:96
+msgid "Single product summary"
+msgstr ""
+
+#: settings/wc-additional-settings/skip-cart-and-goto-checkout-setting.php:14
+msgid "Skip Cart and go straight to Checkout page"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:92
+#: settings/build-your-account-page/logout-button-sht-setting.php:87
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:82
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:95
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:108
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:40
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:80
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:103
+msgid "Solid"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:58
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:50
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:53
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:57
+msgid "solid"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:101
+#: settings/user-data/customer-total-orders-counter-setting.php:99
+#: settings/user-data/customer-total-reviews-counter-setting.php:97
+msgid ""
+"Sometimes the result of the shortcode can appear out of his site. It if "
+"happen, choose the option that you need to view correctly the shortcode"
+msgstr ""
+
+#: sections/recommends-section.php:151
+msgid ""
+"Start from scratch your custom account page with your favorite builder "
+"without limits and get extra functions to your shop. High compatibility with "
+"third party plugin as Elementor, Visual composer, DIVI, WooCommerce "
+"Subscriptions, WooCommerce Memberships and Webtoffee Subscriptions."
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:32
+#: settings/add-security-to-shop/security-headers-setting.php:61
+msgid "STATUS"
+msgstr ""
+
+#: sections/contact-section.php:299
+msgid "STAY UPDATED!"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:74
+msgid "Style settings"
+msgstr ""
+
+#: sections/contact-section.php:304
+msgid "SUBSCRIBE NOW"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:83
+msgid "Suffix for max price on variable products"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:79
+msgid "Suffix for min price on variable products"
+msgstr ""
+
+#: sections/languages-section.php:247
+msgid "System files"
+msgstr ""
+
+#: settings/user-data/username-sht-setting.php:96
+msgid "Text align:"
+msgstr ""
+
+#: settings/user-data/username-sht-setting.php:92
+msgid "Text color:"
+msgstr ""
+
+#: settings/user-data/username-sht-setting.php:83
+msgid "Text prefix:"
+msgstr ""
+
+#: settings/user-data/username-sht-setting.php:94
+msgid "Text size:"
+msgstr ""
+
+#: settings/user-data/username-sht-setting.php:85
+msgid "Text suffix:"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:56
+msgid "Text transform:"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:86
+msgid "Text when dont have bought any product:"
+msgstr ""
+
+#: settings/user-data/customer-total-orders-counter-setting.php:85
+msgid "Text when dont have made any order:"
+msgstr ""
+
+#: settings/user-data/customer-total-reviews-counter-setting.php:84
+msgid "Text when dont have made any review:"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:41
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:70
+msgid "TEXT:"
+msgstr ""
+
+#: settings/customize-the-shop-page/conditional-add-to-cart-button.php:29
+msgid ""
+"The button will be modified on the store page, product summary and product "
+"archives."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:25
+msgid ""
+"The checkbox message can be configured from here globally or from each "
+"function to add a different message in each case."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:30
+msgid "The choosed page will be linked with the checkbox message"
+msgstr ""
+
+#: sections/contact-section.php:252
+msgid "THE FANPAGE"
+msgstr ""
+
+#: sections/languages-section.php:179 sections/languages-section.php:188
+#: sections/languages-section.php:198 sections/languages-section.php:207
+#: sections/languages-section.php:227 sections/languages-section.php:238
+#: sections/languages-section.php:263 sections/languages-section.php:272
+#: sections/languages-section.php:283 sections/languages-section.php:290
+#: sections/languages-section.php:309 sections/languages-section.php:317
+msgid "The file not exist"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:29
+msgid ""
+"The message will be displayed if the product have a number of downloads:"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:58
+msgid "The message will be displayed if the product have a number of sales:"
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:118
+msgid ""
+"The settings will only be applied from the moment you save the settings. You "
+"can continue to configure other functions, although it is recommended, "
+"before continuing "
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:22
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:22
+#: settings/user-data/customer-purchased-products-counter-setting.php:23
+#: settings/user-data/product-purchases-by-current-user-setting.php:22
+#: settings/user-data/customer-purchased-products-loop-setting.php:22
+#: settings/user-data/conditional-message-setting.php:22
+#: settings/user-data/username-in-menu-title-setting.php:25
+#: settings/user-data/user-ip-sht-setting.php:22
+#: settings/user-data/customer-total-orders-counter-setting.php:22
+#: settings/user-data/user-role-sht-setting.php:25
+#: settings/user-data/username-and-surname-sht-setting.php:22
+#: settings/user-data/customer-total-reviews-counter-setting.php:22
+#: settings/user-data/user-email-sht-setting.php:22
+#: settings/user-data/username-sht-setting.php:22
+#: settings/user-data/user-gravatar-image-sht-setting.php:22
+#: settings/build-your-account-page/login-form-sht-setting.php:24
+#: settings/build-your-account-page/logout-button-sht-setting.php:22
+#: settings/build-your-account-page/downloads-list-sht-setting.php:22
+#: settings/build-your-account-page/dashboard-sht-setting.php:22
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:22
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:22
+#: settings/build-your-account-page/edit-account-sht-setting.php:22
+#: settings/build-your-account-page/payment-methods-sht-setting.php:22
+#: settings/build-your-account-page/orders-list-sht-setting.php:34
+#: settings/build-your-account-page/display-wc-notices-setting.php:22
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:22
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:22
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:22
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:22
+msgid "The shortcode"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:22
+#: settings/user-data/display-user-billing-data-setting.php:22
+#: settings/user-data/display-user-shipping-data-setting.php:22
+#: settings/user-data/display-user-orders-by-status-setting.php:22
+msgid "The shortcodes"
+msgstr ""
+
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:26
+msgid ""
+"The URL can be empty if you want to redirect users to the default store page."
+" If you want to redirect to another page, simply choose the page."
+msgstr ""
+
+#: sections/news-section.php:249
+msgid "The version 1.0.9 includes an update on the licensor."
+msgstr ""
+
+#: sections/news-section.php:222
+msgid "The version 1.1.9 includes 2 new functions and compatibility updates."
+msgstr ""
+
+#: sections/contact-section.php:237
+msgid "THE WEB"
+msgstr ""
+
+#: sections/contact-section.php:326
+msgid "the WSHK templates!"
+msgstr ""
+
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:115
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:109
+msgid "Third Category:"
+msgstr ""
+
+#: settings/add-security-to-shop/wp-no-send-users-setting.php:22
+msgid ""
+"This can be used by attackers to find out the number of users a website has "
+"and see if it is of interest to establish them as the target to attack."
+msgstr ""
+
+#: settings/add-security-to-shop/wp-no-send-users-setting.php:22
+msgid ""
+"This function adds security rules to avoid knowing the number of users on "
+"your website."
+msgstr ""
+
+#: settings/add-security-to-shop/security-headers-setting.php:22
+msgid ""
+"This function adds security rules to your website and helps you prevent "
+"different types of attacks."
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:90
+msgid ""
+"This function hide the by default on sale product badge, but you can choose "
+"between hide or show the badge from the following dropdown:"
+msgstr ""
+
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:23
+msgid ""
+"This function is also compatible with the functions: Show only/Exclude "
+"products from specific categories on the shop page"
+msgstr ""
+
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:25
+msgid ""
+"This function is compatible with any theme and page builder. You can design "
+"your new page in the same way as the others."
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:27
+msgid ""
+"This function is compatible with the modification of the button text if the "
+"user has purchased the product."
+msgstr ""
+
+#: settings/wc-additional-settings/autocomplete-virtual-orders-setting.php:28
+msgid ""
+"This function is not valid for stores that need their orders to go through "
+"different states before being completed. For example, if you sell physical "
+"products and orders must go through states such as processing, shipping, "
+"until you reach the completed order status, this function is not recommended "
+"for your store, since it will cause the order to pass from the processing to "
+"the complete directly."
+msgstr ""
+
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:36
+msgid ""
+"This function is prepared to be compatible if you are using a DIVI theme, "
+"but sometimes it is not effective."
+msgstr ""
+
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:36
+msgid ""
+"This is because DIVI already offers this function, so preference is given to "
+"the native function."
+msgstr ""
+
+#: sections/news-section.php:23
+msgid ""
+"This is your inbox where you will find notifications about important changes "
+"in WSHK."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:63
+msgid ""
+"This message will be shown in the emails of the administrator in each case, "
+"allowing that in any case of problems with the user, you can demonstrate "
+"that the user has accepted the privacy policy before performing the action."
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:79
+msgid "This option is blocked while using the shortcode."
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:119
+msgid ""
+"This option is compatible with all the options availables on the step 2."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:22
+msgid ""
+"This settings will be used for 4 different cases (WordPress comments, "
+"WooCommerce reviews, register form and checkout page)."
+msgstr ""
+
+#: settings/build-your-account-page/payment-methods-sht-setting.php:88
+#: settings/build-your-account-page/payment-methods-sht-setting.php:93
+#: settings/build-your-account-page/payment-methods-sht-setting.php:97
+msgid ""
+"This shortcode have an advanced action (add payment method form) and needs "
+"to be linked to a container."
+msgstr ""
+
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:87
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:92
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:97
+msgid ""
+"This shortcode have an advanced action (edit form address) and needs to be "
+"linked to a container."
+msgstr ""
+
+#: settings/build-your-account-page/orders-list-sht-setting.php:130
+#: settings/build-your-account-page/orders-list-sht-setting.php:135
+#: settings/build-your-account-page/orders-list-sht-setting.php:139
+msgid ""
+"This shortcode have an advanced action (view order details) and needs to be "
+"linked to a container."
+msgstr ""
+
+#: settings/build-your-account-page/dashboard-sht-setting.php:74
+msgid ""
+"This shortcode shows the dashboard of the WooCommerce my account page, but "
+"without the default text. It is only recommended to use if you have other "
+"plugins that need to display information on the dashboard, because if not it "
+"dont will display nothing.\n"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:72
+msgid ""
+"This shortcode shows total amount sales, adding orders with status "
+"processing, completed and on hold"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:72
+msgid ""
+"This shortcode shows total store sales, adding orders with status processing,"
+" completed and on hold"
+msgstr ""
+
+#: settings/wc-additional-settings/limit-the-number-of-products-inthe-cart-setting.php:26
+msgid ""
+"This value will allow only the number of established products to be added to "
+"the cart, which means that if the user adds more products than the "
+"established number, the cart will restart with the last product added."
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:93
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:138
+msgid "Title link target:"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:91
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:136
+msgid "Title text color:"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:90
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:135
+msgid "Title text size:"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:92
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:137
+msgid "Title text-decoration:"
+msgstr ""
+
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:87
+#: settings/build-your-account-page/payment-methods-sht-setting.php:88
+#: settings/build-your-account-page/orders-list-sht-setting.php:130
+msgid ""
+"To get it, you need go to the WSHK PRO section called WOO SHORTCODES KIT PRO "
+"SETTINGS and look for the function called Custom redirections for advanced "
+"actions of WooCommerce my account."
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:118
+msgid ""
+"To get it, you need go to the WSHK PRO section called WOO SHORTCODES KIT PRO "
+"SETTINGS and look for the function called Customer avatar uploader on edit "
+"account and the function called Display customer avatar with a shortcode."
+msgstr ""
+
+#: settings/build-your-account-page/edit-account-sht-setting.php:87
+msgid ""
+"To get it, you need go to the WSHK PRO section called WOO SHORTCODES KIT PRO "
+"SETTINGS and look for the function called Customer avatar uploader on edit "
+"account."
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:141
+#: settings/user-data/customer-purchased-products-counter-setting.php:144
+#: settings/user-data/customer-total-orders-counter-setting.php:139
+#: settings/user-data/customer-total-orders-counter-setting.php:142
+#: settings/user-data/customer-total-reviews-counter-setting.php:131
+#: settings/user-data/user-gravatar-image-sht-setting.php:123
+#: settings/user-data/user-gravatar-image-sht-setting.php:127
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:92
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:97
+#: settings/build-your-account-page/edit-account-sht-setting.php:92
+#: settings/build-your-account-page/edit-account-sht-setting.php:96
+#: settings/build-your-account-page/payment-methods-sht-setting.php:93
+#: settings/build-your-account-page/payment-methods-sht-setting.php:97
+#: settings/build-your-account-page/orders-list-sht-setting.php:135
+#: settings/build-your-account-page/orders-list-sht-setting.php:139
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:97
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:105
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:122
+msgid "To get it, you need the addon"
+msgstr ""
+
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:24
+msgid ""
+"To understand how it work, this function display the product image in the "
+"order details after make click in the view order button. To use them, you "
+"only need enable the function. The user must have logged in to see the order "
+"details. You can add your custom styles for the product image too."
+msgstr ""
+
+#: settings/user-data/display-user-billing-data-setting.php:25
+msgid ""
+"To understand how they work, these shortcodes show the billing user data. To "
+"use them, you only need to copy the shortcode and paste it into the page my "
+"account or some other private page, since the user must have logged in to "
+"see the results of the shortcode. You can add text before or after the "
+"shortcode."
+msgstr ""
+
+#: settings/user-data/display-user-shipping-data-setting.php:25
+msgid ""
+"To understand how they work, these shortcodes show the shipping user data. "
+"To use them, you only need to copy the shortcode and paste it into the page "
+"my account or some other private page, since the user must have logged in to "
+"see the results of the shortcode. You can add text before or after the "
+"shortcode."
+msgstr ""
+
+#: settings/user-data/display-user-orders-by-status-setting.php:25
+msgid ""
+"To understand how they work, these shortcodes show the total number of "
+"orders placed by the user in your store. This will allow the user to know "
+"how many orders they have made according to their status. To use them, you "
+"only need to copy the shortcode and paste it into the page my account or "
+"some other private page, since the user must have logged in to see the "
+"results of the shortcode. You can add text before or after the shortcode."
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:26
+msgid ""
+"To understand how they work, these shortcodes show the total spent by the "
+"user in your store. This will allow your users to know how much money they "
+"have spent. To use them, you only need to copy the shortcode and paste it "
+"into the page my account or any other private page, since the user must be "
+"logged to see the result of the shortcode. You can add your own currency too "
+"after or before the shortcode."
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:765
+#: settings/user-data/display-user-total-spent-setting.php:34
+msgid "Total Balance"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:40
+#: settings/user-data/display-user-orders-by-status-setting.php:38
+msgid "Total cancelled"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:39
+#: settings/user-data/display-user-orders-by-status-setting.php:37
+msgid "Total completed"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:42
+#: settings/user-data/display-user-orders-by-status-setting.php:40
+msgid "Total failed"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:38
+#: settings/user-data/display-user-orders-by-status-setting.php:36
+msgid "Total in process"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:37
+#: settings/user-data/display-user-orders-by-status-setting.php:35
+msgid "Total on hold"
+msgstr ""
+
+#: settings/user-data/display-user-orders-by-status-setting.php:33
+msgid "Total orders"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:345
+msgid "Total orders by user"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:36
+#: settings/user-data/display-user-orders-by-status-setting.php:34
+msgid "Total pending"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:322
+msgid "Total products by user"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:233
+msgid "Total Products counter"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:41
+#: settings/user-data/display-user-orders-by-status-setting.php:39
+msgid "Total refunded"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:368
+msgid "Total reviews by user"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:14
+msgid "Total shop products counter"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:14
+msgid "Total shop sales amount counter"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:14
+msgid "Total shop sales counter"
+msgstr ""
+
+#: settings/user-data/display-user-total-spent-setting.php:35
+msgid "Total Spended"
+msgstr ""
+
+#: sections/languages-section.php:15
+msgid "TRANSLATE THE PLUGIN! "
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:114
+msgid "Type of limiter:"
+msgstr ""
+
+#: sections/languages-section.php:137 sections/languages-section.php:145
+#: sections/languages-section.php:153
+msgid "UPDATE"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:14
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:14
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:14
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:14
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:14
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:15
+#: settings/user-data/customer-purchased-products-counter-setting.php:14
+#: settings/user-data/username-in-menu-title-setting.php:15
+#: settings/user-data/customer-total-orders-counter-setting.php:14
+#: settings/user-data/customer-total-reviews-counter-setting.php:14
+#: settings/user-data/display-user-billing-data-setting.php:14
+#: settings/user-data/display-user-shipping-data-setting.php:14
+#: settings/build-your-account-page/login-form-sht-setting.php:14
+#: settings/build-your-account-page/logout-button-sht-setting.php:14
+#: settings/build-your-account-page/downloads-list-sht-setting.php:14
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:14
+#: settings/build-your-account-page/orders-list-sht-setting.php:15
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:14
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:16
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:14
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:14
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:15
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:15
+#: settings/wc-additional-settings/product-image-in-order-details-setting.php:14
+msgid "UPDATED"
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:138
+msgid ""
+"Use it if you are building your own myaccount page and want redirect the "
+"user to a specific page after the logout."
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:76
+msgid ""
+"Use it if you are building your own myaccount page or want redirect the user "
+"to a specific page after the login."
+msgstr ""
+
+#: settings/build-your-account-page/logout-button-sht-setting.php:22
+#: settings/build-your-account-page/downloads-list-sht-setting.php:22
+#: settings/build-your-account-page/dashboard-sht-setting.php:22
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:22
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:22
+#: settings/build-your-account-page/edit-account-sht-setting.php:22
+#: settings/build-your-account-page/payment-methods-sht-setting.php:22
+#: settings/build-your-account-page/orders-list-sht-setting.php:34
+msgid "Use it only in your custom account page"
+msgstr ""
+
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:109
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:102
+msgid "Use shortcode"
+msgstr ""
+
+#: woo-shortcodes-kit.php:267
+msgid "USER DATA"
+msgstr ""
+
+#: settings/user-data/user-email-sht-setting.php:14
+msgid "User email shortcode"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:14
+msgid "User gravatar image shortcode"
+msgstr ""
+
+#: settings/user-data/user-ip-sht-setting.php:14
+msgid "User IP shortcode"
+msgstr ""
+
+#: settings/user-data/username-and-surname-sht-setting.php:14
+msgid "User name and surname shortcode"
+msgstr ""
+
+#: settings/user-data/user-role-sht-setting.php:15
+msgid "User role shortcode"
+msgstr ""
+
+#: sections/old-shortcodes-grid-section.php:439
+msgid "Username"
+msgstr ""
+
+#: settings/user-data/username-in-menu-title-setting.php:15
+msgid "Username in menu title"
+msgstr ""
+
+#: settings/user-data/username-sht-setting.php:14
+msgid "Username shortcode"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:43
+msgid "variable"
+msgstr ""
+
+#: sections/news-section.php:195
+msgid "Version 2.0.2 includes some fixes and compatibility updates."
+msgstr ""
+
+#: sections/contact-section.php:225
+msgid "VIEW DOC!"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:112
+msgid "View product"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:35
+msgid "View products"
+msgstr ""
+
+#: sections/contact-section.php:240
+msgid "VISIT NOW!"
+msgstr ""
+
+#: sections/contact-section.php:237
+msgid "Visit the official WSHK website!"
+msgstr ""
+
+#: sections/news-section.php:190
+msgid "WHAT DOES WOO SHORTCODES KIT V.2.0.2 INCLUDE?"
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:120
+msgid ""
+"When the user has made more reviews than the set number, the pagination will "
+"appear below the reviews to navigate between the previous reviews."
+msgstr ""
+
+#: settings/build-your-account-page/orders-list-sht-setting.php:94
+msgid ""
+"When the user has placed more orders than the established number, the "
+"pagination will appear below the table to navigate among the previous orders."
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:110
+msgid "When this option is enabled, it replaces the page selected in step 2"
+msgstr ""
+
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:26
+msgid ""
+"When you activate this function, you must add a custom text for the button "
+"and it will change."
+msgstr ""
+
+#: settings/wc-additional-settings/limit-the-number-of-products-inthe-cart-setting.php:26
+msgid ""
+"When you activate this function, you must add a number of products to "
+"determine how many products can be added to the cart."
+msgstr ""
+
+#: sections/recommends-section.php:126
+msgid ""
+"With Easy My Account builder, just need write a shortcode in your new and "
+"custom account page.It will build a full login and private user zone like "
+"WooCommerce by default,with the difference that you can manage the tabs, the "
+"containers and the content."
+msgstr ""
+
+#: settings/wc-additional-settings/autocomplete-virtual-orders-setting.php:28
+msgid ""
+"With this function your orders will be completed automaticlly, just active "
+"it and forget the processing status."
+msgstr ""
+
+#: sections/contact-section.php:315
+msgid "with WSHK"
+msgstr ""
+
+#: sections/contact-section.php:337
+msgid "with WSHK PRO!"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woo Shortcodes Kit"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:141
+#: settings/user-data/customer-purchased-products-counter-setting.php:144
+#: settings/user-data/customer-total-orders-counter-setting.php:139
+#: settings/user-data/customer-total-orders-counter-setting.php:142
+#: settings/user-data/customer-total-reviews-counter-setting.php:131
+#: settings/user-data/user-gravatar-image-sht-setting.php:123
+#: settings/user-data/user-gravatar-image-sht-setting.php:127
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:92
+#: settings/build-your-account-page/billing-and-shipping-addresses-sht-setting.php:97
+#: settings/build-your-account-page/edit-account-sht-setting.php:92
+#: settings/build-your-account-page/edit-account-sht-setting.php:96
+#: settings/build-your-account-page/payment-methods-sht-setting.php:93
+#: settings/build-your-account-page/payment-methods-sht-setting.php:97
+#: settings/build-your-account-page/orders-list-sht-setting.php:135
+#: settings/build-your-account-page/orders-list-sht-setting.php:139
+#: settings/customize-the-shop-page/display-max-or-min-price-on-variableproducts-setting.php:97
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:105
+#: settings/customize-the-shop-page/saving-price-and-percentages-onsale-products.php:122
+msgid "Woo Shortcodes Kit PRO"
+msgstr ""
+
+#: woo-shortcodes-kit.php:43
+#, php-format
+msgid ""
+"Woo Shortcodes Kit requires WooCommerce to be installed and active. You can "
+"download %s here."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:90
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:69
+#: settings/customize-the-shop-page/build-a-new-shop-page-setting.php:59
+#: settings/wc-additional-settings/skip-cart-and-goto-checkout-setting.php:26
+#: settings/wc-additional-settings/add-name-and-surname-fields-wc-register-form-setting.php:31
+msgid "WooCommerce settings"
+msgstr ""
+
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:28
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:31
+msgid "Write -1 to display All products"
+msgstr ""
+
+#: settings/build-your-account-page/hide-login-errors-setting.php:28
+msgid ""
+"Write a custom message to display if something go bad while the login:\n"
+msgstr ""
+
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:147
+msgid ""
+"Write all to show all reviews or a specific number\n"
+"            to show this number of reviews."
+msgstr ""
+
+#: settings/build-your-account-page/customer-reviews-sht-setting.php:119
+msgid ""
+"Write all to show all reviews or a specific number to show this number of "
+"reviews"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:127
+#: settings/user-data/customer-total-orders-counter-setting.php:125
+msgid "Write here the number of days:"
+msgstr ""
+
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:99
+msgid "Write here the quantity to increase:"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:83
+#: settings/user-data/customer-total-orders-counter-setting.php:82
+#: settings/user-data/customer-total-reviews-counter-setting.php:81
+msgid "Write here the text plural suffix:"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:77
+#: settings/user-data/customer-total-orders-counter-setting.php:76
+#: settings/user-data/customer-total-reviews-counter-setting.php:75
+msgid "Write here the text prefix:"
+msgstr ""
+
+#: settings/user-data/customer-total-orders-counter-setting.php:79
+#: settings/user-data/customer-total-reviews-counter-setting.php:78
+msgid "Write here the text singular suffix:"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:80
+msgid "Write here the text suffix:"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:27
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:56
+msgid "Write here the text to display below the product:"
+msgstr ""
+
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:33
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:35
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:41
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:43
+#: settings/customize-the-shop-page/change-add-to-cart-button-text-setting.php:45
+msgid "Write here the text to display in the"
+msgstr ""
+
+#: settings/customize-the-shop-page/conditional-add-to-cart-button.php:34
+msgid "Write here the text to display in the button:"
+msgstr ""
+
+#: settings/wc-additional-settings/change-the-return-toshop-button-setting.php:28
+msgid "Write the button text"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:35
+msgid "Write the checkbox initial text"
+msgstr ""
+
+#: settings/customize-the-shop-page/products-per-page-manager-setting.php:23
+msgid "Write the number of products to display per page"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:73
+#: settings/user-data/customer-total-orders-counter-setting.php:73
+#: settings/user-data/customer-total-reviews-counter-setting.php:72
+msgid "Write the prefix and suffix texts to show."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:26
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:29
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:28
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:29
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:31
+msgid "Write your custom checkbox message"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:57
+msgid "Write your custom error text"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:55
+msgid "Write your custom link text"
+msgstr ""
+
+#: settings/build-your-account-page/hide-login-errors-setting.php:29
+msgid "Write your custom message"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:35
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:33
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:34
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:37
+msgid "Write your custom text"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:65
+msgid "Write your custom text link"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/global-settings-setting.php:26
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:29
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:28
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:29
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:31
+msgid "Write your message for the checkbox:"
+msgstr ""
+
+#: settings/customize-the-shop-page/show-only-products-from-specific-cat-setting.php:23
+msgid "You can add 3 different categories to display"
+msgstr ""
+
+#: settings/customize-the-shop-page/exclude-products-from-specific-cat-setting.php:22
+msgid "You can add 3 different categories to exclude"
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-register-form-setting.php:49
+#: settings/adapt-to-gdpr-law/blog-comments-setting.php:44
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:47
+#: settings/adapt-to-gdpr-law/wc-reviews-setting.php:51
+msgid "You can add HTML code too!"
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:107
+msgid "You can choose a different menu from those available or"
+msgstr ""
+
+#: settings/wc-additional-settings/conditional-menu-setting.php:81
+msgid "You can choose a menu from those available or"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:94
+msgid ""
+"You can choose how to display it. If you were using this function before v.1."
+"8.9 you should choose the display options, the first and second option were "
+"the ones used in older versions."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/checkout-page-setting.php:62
+msgid ""
+"You can choose if you want to show or hide the privacy policy checkbox for "
+"logged in users. If your users have accepted the privacy policy and you want "
+"to skip this step for the following orders, just check the option and it "
+"will be hide and checked automatically."
+msgstr ""
+
+#: settings/adapt-to-gdpr-law/wc-terms-conditions-setting.php:78
+msgid ""
+"You can choose if you want to show or hide the terms and conditions checkbox "
+"for logged in users. If your users have accepted the terms and conditions "
+"and you want to skip this step for the following orders, just check the "
+"option and it will be hide and checked automatically."
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:93
+#: settings/user-data/customer-total-orders-counter-setting.php:91
+#: settings/user-data/customer-total-reviews-counter-setting.php:90
+msgid ""
+"You can choose the text alignment and fix the shortcode if it is not "
+"displayed correctly"
+msgstr ""
+
+#: settings/wc-additional-settings/shortcodes-in-menu-titles-setting.php:24
+msgid "You can combine this function with the others of the same category."
+msgstr ""
+
+#: settings/user-data/conditional-message-setting.php:75
+msgid "You can copy it and paste directly in the text message field"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:89
+msgid "You can display a specific product sales by ID on any page or post."
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:77
+#: settings/user-data/customer-purchased-products-counter-setting.php:80
+#: settings/user-data/customer-purchased-products-counter-setting.php:83
+#: settings/user-data/customer-purchased-products-counter-setting.php:86
+#: settings/user-data/customer-total-orders-counter-setting.php:76
+#: settings/user-data/customer-total-orders-counter-setting.php:79
+#: settings/user-data/customer-total-orders-counter-setting.php:82
+#: settings/user-data/customer-total-orders-counter-setting.php:85
+#: settings/user-data/customer-total-reviews-counter-setting.php:75
+#: settings/user-data/customer-total-reviews-counter-setting.php:78
+#: settings/user-data/customer-total-reviews-counter-setting.php:81
+#: settings/user-data/customer-total-reviews-counter-setting.php:84
+msgid "You can leave empty to show nothing"
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:118
+#: settings/user-data/user-gravatar-image-sht-setting.php:123
+msgid ""
+"You can provide to your customers the possibility to upload a custom profile "
+"image from the edit account form and also display it with a shortcode where "
+"you need."
+msgstr ""
+
+#: settings/user-data/user-gravatar-image-sht-setting.php:127
+#: settings/build-your-account-page/edit-account-sht-setting.php:87
+#: settings/build-your-account-page/edit-account-sht-setting.php:92
+#: settings/build-your-account-page/edit-account-sht-setting.php:96
+msgid ""
+"You can provide to your customers the possibility to upload a custom profile "
+"image from the edit account form."
+msgstr ""
+
+#: settings/wc-additional-settings/custom-thank-you-pages-setting.php:22
+msgid ""
+"You can set up a different thank you page in up to 3 products. You can also "
+"add a different thank you page for the rest of the shop products."
+msgstr ""
+
+#: settings/build-your-account-page/login-form-sht-setting.php:24
+msgid ""
+"You can use it in your custom account page and also in other pages, posts, "
+"products pages and where you need!"
+msgstr ""
+
+#: settings/add-security-to-shop/restrict-content-to-nonlogged-in-users-setting.php:22
+#: settings/add-security-to-shop/restrict-content-to-logged-in-users-setting.php:22
+#: settings/user-data/customer-purchased-products-counter-setting.php:23
+#: settings/user-data/product-purchases-by-current-user-setting.php:22
+#: settings/user-data/display-user-total-spent-setting.php:22
+#: settings/user-data/customer-purchased-products-loop-setting.php:22
+#: settings/user-data/conditional-message-setting.php:22
+#: settings/user-data/username-in-menu-title-setting.php:25
+#: settings/user-data/user-ip-sht-setting.php:22
+#: settings/user-data/customer-total-orders-counter-setting.php:22
+#: settings/user-data/user-role-sht-setting.php:25
+#: settings/user-data/username-and-surname-sht-setting.php:22
+#: settings/user-data/customer-total-reviews-counter-setting.php:22
+#: settings/user-data/display-user-billing-data-setting.php:22
+#: settings/user-data/user-email-sht-setting.php:22
+#: settings/user-data/display-user-shipping-data-setting.php:22
+#: settings/user-data/username-sht-setting.php:22
+#: settings/user-data/display-user-orders-by-status-setting.php:22
+#: settings/user-data/user-gravatar-image-sht-setting.php:22
+#: settings/build-your-account-page/display-wc-notices-setting.php:22
+#: settings/customize-the-shop-page/total-shop-products-counter-setting.php:22
+#: settings/customize-the-shop-page/display-all-the-products-reviews-setting.php:22
+#: settings/customize-the-shop-page/total-shop-sales-counter-setting.php:22
+#: settings/customize-the-shop-page/total-shop-sales-amount-counter-setting.php:22
+msgid "You can use it on any page or post"
+msgstr ""
+
+#: settings/user-data/product-purchases-by-current-user-setting.php:72
+msgid ""
+"You can use the shortcode where you want only need  to add the product ID"
+msgstr ""
+
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:33
+#: settings/customize-the-shop-page/product-downloads-sales-counter-setting.php:62
+msgid "You can use these classes to customize the message style:"
+msgstr ""
+
+#: settings/user-data/customer-total-orders-counter-setting.php:85
+msgid "You dont have any orders made yet"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:86
+msgid "You dont have any products bought yet"
+msgstr ""
+
+#: settings/user-data/customer-total-reviews-counter-setting.php:84
+msgid "You dont have any review made yet"
+msgstr ""
+
+#: sections/news-section.php:18
+msgid "You have a new message!"
+msgstr ""
+
+#: settings/user-data/customer-purchased-products-counter-setting.php:77
+msgid "You have bought"
+msgstr ""
+
+#: settings/user-data/customer-total-orders-counter-setting.php:76
+#: settings/user-data/customer-total-reviews-counter-setting.php:75
+msgid "You have made"
+msgstr ""
+
+#: functions/wshk-adapt-to-gdpr.php:543
+msgid "You must agree to our privacy term by checking the box"
+msgstr ""
